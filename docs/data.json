@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-01T15:11:45+00:00",
+ "generated_at": "2026-07-01T15:49:35+00:00",
  "count": 176,
  "tasks": [
   {
@@ -8,7 +8,7 @@
    "project": "—",
    "stage": "—",
    "state": "1_done",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 0,
    "deadline": null,
    "created": "2026-01-19"
@@ -16,10 +16,10 @@
   {
    "id": 6,
    "name": "Fazer placa de contato",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 0,
    "deadline": "2026-01-15",
    "created": "2026-01-20"
@@ -27,10 +27,10 @@
   {
    "id": 7,
    "name": "Encontrar IGOAL",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-01-20"
@@ -38,10 +38,10 @@
   {
    "id": 8,
    "name": "Configurar extensor como access point",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "11: EM APROVAÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": "2026-03-05",
    "created": "2026-01-20"
@@ -49,10 +49,10 @@
   {
    "id": 9,
    "name": "Acionar Garantia do inversor Canadian",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 3,
    "deadline": null,
    "created": "2026-01-20"
@@ -60,10 +60,10 @@
   {
    "id": 10,
    "name": "Verificar Strings do inversor 08",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": "2026-01-30",
    "created": "2026-01-26"
@@ -71,10 +71,10 @@
   {
    "id": 11,
    "name": "Treinamento",
-   "project": "2: Interno",
+   "project": "Interno",
    "stage": "13: Internal",
    "state": "01_in_progress",
-   "resp": "OdooBot",
+   "resp": "ID 1",
    "priority": 0,
    "deadline": null,
    "created": "2026-01-26"
@@ -82,10 +82,10 @@
   {
    "id": 12,
    "name": "Reunião",
-   "project": "2: Interno",
+   "project": "Interno",
    "stage": "13: Internal",
    "state": "01_in_progress",
-   "resp": "OdooBot",
+   "resp": "ID 1",
    "priority": 0,
    "deadline": null,
    "created": "2026-01-26"
@@ -93,7 +93,7 @@
   {
    "id": 13,
    "name": "Verificar integridade dos cabos CC",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "1_done",
    "resp": "Sem responsável",
@@ -104,7 +104,7 @@
   {
    "id": 14,
    "name": "Medir correntes com multímetro",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "1_done",
    "resp": "Sem responsável",
@@ -115,7 +115,7 @@
   {
    "id": 15,
    "name": "Realizar termografia",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "1_done",
    "resp": "Sem responsável",
@@ -126,7 +126,7 @@
   {
    "id": 16,
    "name": "Colocar em pleno funcionamento o equipamento",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "1_done",
    "resp": "Sem responsável",
@@ -137,10 +137,10 @@
   {
    "id": 20,
    "name": "Cortar Eucalipto no terreno vizinho",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-02-13"
@@ -148,10 +148,10 @@
   {
    "id": 21,
    "name": "Finalizar instalação de internet",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-02-13"
@@ -159,10 +159,10 @@
   {
    "id": 22,
    "name": "Instalação de câmeras de monitoramento",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-02-13"
@@ -170,10 +170,10 @@
   {
    "id": 23,
    "name": "Buscar módulos Trina",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 2 + Responsável 6",
+   "resp": "LEONARDO DE CASTRO FERREIRA + TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-02-13"
@@ -181,10 +181,10 @@
   {
    "id": 24,
    "name": "Acionar garantia Chint",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "11: EM APROVAÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 3,
    "deadline": null,
    "created": "2026-02-13"
@@ -192,10 +192,10 @@
   {
    "id": 25,
    "name": "Vistoriar lastros deformados",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "Responsável 2 + Responsável 6",
+   "resp": "LEONARDO DE CASTRO FERREIRA + TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-02-13"
@@ -203,10 +203,10 @@
   {
    "id": 26,
    "name": "MC4 com sinais de perda de isolação",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-02-13"
@@ -214,10 +214,10 @@
   {
    "id": 27,
    "name": "Conseguir o frete para levar os módulos da Sol Nascente para Linhares para executarmos o serviço.",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "01_in_progress",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 0,
    "deadline": null,
    "created": "2026-02-25"
@@ -225,10 +225,10 @@
   {
    "id": 28,
    "name": "Concretagem cabine dos inversores",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-03-02"
@@ -236,10 +236,10 @@
   {
    "id": 29,
    "name": "Concretagem QGBT",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 0,
    "deadline": null,
    "created": "2026-03-02"
@@ -247,10 +247,10 @@
   {
    "id": 30,
    "name": "Pendencias pós comissionamento",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "Responsável 2 + Responsável 6",
+   "resp": "LEONARDO DE CASTRO FERREIRA + TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-03-02"
@@ -258,10 +258,10 @@
   {
    "id": 31,
    "name": "Manutenção Preventiva",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-03-05"
@@ -269,10 +269,10 @@
   {
    "id": 32,
    "name": "Solicitar desligamento programado na EDP",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 3,
    "deadline": null,
    "created": "2026-03-05"
@@ -280,10 +280,10 @@
   {
    "id": 33,
    "name": "Inspeção termografica de módulos",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-03-05"
@@ -291,10 +291,10 @@
   {
    "id": 34,
    "name": "Inspeção parte CA - POSTE X INVERSOR",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-03-05"
@@ -302,10 +302,10 @@
   {
    "id": 35,
    "name": "Troca de inversores CANADIAN",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 0,
    "deadline": null,
    "created": "2026-03-05"
@@ -313,10 +313,10 @@
   {
    "id": 36,
    "name": "Analise de posicionamento de motores dos Trackers",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "11: EM APROVAÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 2 + Responsável 6",
+   "resp": "LEONARDO DE CASTRO FERREIRA + TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-03-05"
@@ -324,10 +324,10 @@
   {
    "id": 37,
    "name": "Instalação de Gateway IGOAL",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 2 + Responsável 6",
+   "resp": "LEONARDO DE CASTRO FERREIRA + TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-03-06"
@@ -335,10 +335,10 @@
   {
    "id": 38,
    "name": "Troca do medidor da EDP e análise do cubículo",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-03-06"
@@ -346,10 +346,10 @@
   {
    "id": 39,
    "name": "Execução de testes em muflas para instalação de conector final",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 0,
    "deadline": null,
    "created": "2026-03-06"
@@ -357,10 +357,10 @@
   {
    "id": 40,
    "name": "Relatório de estruturas, módulos e cabeamento",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 0,
    "deadline": null,
    "created": "2026-03-10"
@@ -368,10 +368,10 @@
   {
    "id": 41,
    "name": "Inspeção em inversores",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-03-17"
@@ -379,10 +379,10 @@
   {
    "id": 42,
    "name": "Teste",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "01_in_progress",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 0,
    "deadline": null,
    "created": "2026-03-23"
@@ -390,10 +390,10 @@
   {
    "id": 43,
    "name": "Substituir relé SE Ibiraçu",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "11: EM APROVAÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-03-23"
@@ -401,10 +401,10 @@
   {
    "id": 44,
    "name": "Substituir relé SE Linhares",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 2 + Responsável 6",
+   "resp": "LEONARDO DE CASTRO FERREIRA + TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-03-23"
@@ -412,10 +412,10 @@
   {
    "id": 45,
    "name": "Substituição de ventoinha de motor",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-03-23"
@@ -423,10 +423,10 @@
   {
    "id": 46,
    "name": "Verificar strings com mau funcionamento",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-03-23"
@@ -434,10 +434,10 @@
   {
    "id": 47,
    "name": "Acompanhar troca do medidor EDP",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": "2026-03-31",
    "created": "2026-03-23"
@@ -445,10 +445,10 @@
   {
    "id": 48,
    "name": "subtarefa 1",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "1_done",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 0,
    "deadline": null,
    "created": "2026-03-24"
@@ -456,10 +456,10 @@
   {
    "id": 49,
    "name": "subtarefa 2",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "1_canceled",
-   "resp": "Responsável 2 + Responsável 6",
+   "resp": "LEONARDO DE CASTRO FERREIRA + TERRA CONSTRUÇÕES",
    "priority": 0,
    "deadline": null,
    "created": "2026-03-24"
@@ -467,10 +467,10 @@
   {
    "id": 52,
    "name": "Reparo em aterramento do transformador",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-03-24"
@@ -478,10 +478,10 @@
   {
    "id": 53,
    "name": "Criar malha de aterramento para Subestação de medição",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-03-24"
@@ -489,10 +489,10 @@
   {
    "id": 57,
    "name": "Testes e correções na rotação dos trackers",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-03-24"
@@ -500,10 +500,10 @@
   {
    "id": 58,
    "name": "Sondagem e passagem de cabeamento CC (200kWp)",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-03-24"
@@ -511,10 +511,10 @@
   {
    "id": 59,
    "name": "Reparo no aterramento externo dos inversores e estruturas que estão rompidos por degradação",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-03-24"
@@ -522,10 +522,10 @@
   {
    "id": 187,
    "name": "Realizar testes e medição de VOC nos circuitos dos módulos fotovoltaicos de 1MWp",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -533,10 +533,10 @@
   {
    "id": 188,
    "name": "Reparo em comunicação dos inversores com substituição do cabeamento",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-11-27",
    "created": "2026-03-24"
@@ -544,10 +544,10 @@
   {
    "id": 252,
    "name": "Conectar e testar sistema de comunicação/monitoramento dos inversores",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -555,10 +555,10 @@
   {
    "id": 253,
    "name": "Aplicação de selador e pintura em massa acrílica branca interno e externo na Subestação",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-11-27",
    "created": "2026-03-24"
@@ -566,10 +566,10 @@
   {
    "id": 254,
    "name": "Remoção de câmeras e refletores antigos",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-11-27",
    "created": "2026-03-24"
@@ -577,10 +577,10 @@
   {
    "id": 255,
    "name": "Instalação de novas câmeras na Subestação",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-11-27",
    "created": "2026-03-24"
@@ -588,10 +588,10 @@
   {
    "id": 256,
    "name": "Instalação de novos refletores na Subestação",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-11-27",
    "created": "2026-03-24"
@@ -599,10 +599,10 @@
   {
    "id": 257,
    "name": "Abertura de novas valas para instalação de BT e comunicação",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-11-27",
    "created": "2026-03-24"
@@ -610,10 +610,10 @@
   {
    "id": 258,
    "name": "Instalação/configuração de 04 novos postes com câmeras no perímetro externo da usina",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-03-24"
@@ -621,10 +621,10 @@
   {
    "id": 259,
    "name": "Reparo em estruturas oxidadas em Trackers, lixando e pintando com tinta galvanizada",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-11-26",
    "created": "2026-03-24"
@@ -632,10 +632,10 @@
   {
    "id": 260,
    "name": "Inspeção visual em toda usina e troca de módulos com avaria",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-11-27",
    "created": "2026-03-24"
@@ -643,10 +643,10 @@
   {
    "id": 261,
    "name": "Movimentação de caixa d’água para dentro do terreno e ajuste em rede hidráulica para correto funcionamento",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-11-27",
    "created": "2026-03-24"
@@ -654,10 +654,10 @@
   {
    "id": 262,
    "name": "Inspeção visual em toda usina e troca de módulos com avaria",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-04",
    "created": "2026-03-24"
@@ -665,10 +665,10 @@
   {
    "id": 263,
    "name": "Instalação/configuração de câmeras no perímetro externo da usina",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -676,10 +676,10 @@
   {
    "id": 264,
    "name": "Inspeção visual em toda usina e troca de módulos com avaria",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -687,10 +687,10 @@
   {
    "id": 265,
    "name": "Solucionar falhas do inversor 01",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -698,10 +698,10 @@
   {
    "id": 266,
    "name": "Solucionar falhas do  inversor 02",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -709,10 +709,10 @@
   {
    "id": 267,
    "name": "Vedar dutos com espuma expansiva",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -720,10 +720,10 @@
   {
    "id": 268,
    "name": "Remoção do inversor Chint da usina de Ibiraçu para instalar em Linhares",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -731,10 +731,10 @@
   {
    "id": 269,
    "name": "Solucionar problemas em duas Strings dos inversores Canadian",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -742,10 +742,10 @@
   {
    "id": 270,
    "name": "Malha de aterramento interna da SE",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -753,10 +753,10 @@
   {
    "id": 271,
    "name": "Malha de aterramento do contêiner",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -764,10 +764,10 @@
   {
    "id": 272,
    "name": "Instalação de equipamentos de monitoramento no contêiner",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -775,10 +775,10 @@
   {
    "id": 273,
    "name": "Trocar telha amassada inversor 06",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -786,10 +786,10 @@
   {
    "id": 274,
    "name": "Trocar parafusos dos suportes dos inversores",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-02-07",
    "created": "2026-03-24"
@@ -797,10 +797,10 @@
   {
    "id": 275,
    "name": "Tratar estruturas oxidadas dos abrigos dos inversores",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -808,10 +808,10 @@
   {
    "id": 276,
    "name": "Execução de infra nos cabos dos trackers SE",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -819,10 +819,10 @@
   {
    "id": 277,
    "name": "Instalação do amplificador de sinal Wi-fi",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -830,10 +830,10 @@
   {
    "id": 278,
    "name": "Instalar pingadeiras na SE",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -841,10 +841,10 @@
   {
    "id": 279,
    "name": "Espalhar brita ao redor da SE",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -852,10 +852,10 @@
   {
    "id": 280,
    "name": "Fechar buraco no telhado da SE",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24"
@@ -863,10 +863,10 @@
   {
    "id": 281,
    "name": "Rearranjo de strings",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-01-26",
    "created": "2026-03-24"
@@ -874,10 +874,10 @@
   {
    "id": 282,
    "name": "Correção em cinco strings com falhas",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-30",
    "created": "2026-03-24"
@@ -885,10 +885,10 @@
   {
    "id": 283,
    "name": "Identificação da falha, desligamento das strings e remoção do cabeamento dos módulos do inversor 04",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-30",
    "created": "2026-03-24"
@@ -896,10 +896,10 @@
   {
    "id": 284,
    "name": "Abertura de novas valas para passagem do cabeamento que foi trocado",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-30",
    "created": "2026-03-24"
@@ -907,10 +907,10 @@
   {
    "id": 285,
    "name": "Troca de cabos danificados, teste e conexão no inversor 04",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-30",
    "created": "2026-03-24"
@@ -918,10 +918,10 @@
   {
    "id": 286,
    "name": "Organização dos cabos nas mesas",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-30",
    "created": "2026-03-24"
@@ -929,10 +929,10 @@
   {
    "id": 287,
    "name": "Vedação de dutos com espuma expansiva",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2025-12-30",
    "created": "2026-03-24"
@@ -940,10 +940,10 @@
   {
    "id": 288,
    "name": "Contato com suporte técnico CHINT e realização de testes juntamente ao suporte",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-01-07",
    "created": "2026-03-24"
@@ -951,10 +951,10 @@
   {
    "id": 289,
    "name": "Desconexão da string 10 do inversor 6 e substituição dos cabos",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-01-21",
    "created": "2026-03-24"
@@ -962,10 +962,10 @@
   {
    "id": 290,
    "name": "Abertura de valas para passagem dos cabos para o rearranjo das Strings",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-01-21",
    "created": "2026-03-24"
@@ -973,10 +973,10 @@
   {
    "id": 291,
    "name": "Registro fotográfico e envio para verificação do seguro da usina de Ibiraçu",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-01-21",
    "created": "2026-03-24"
@@ -984,10 +984,10 @@
   {
    "id": 292,
    "name": "Abertura e inspeção dos cabos antigos para aproveitamento no rearranjo",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-01-21",
    "created": "2026-03-24"
@@ -995,10 +995,10 @@
   {
    "id": 293,
    "name": "Remoção dos cabos do inversor 06",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-01-21",
    "created": "2026-03-24"
@@ -1006,10 +1006,10 @@
   {
    "id": 294,
    "name": "Abertura de 06 (seis) valas para passagens dos cabos das extensões devido a mudança de strings",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-01-24",
    "created": "2026-03-24"
@@ -1017,10 +1017,10 @@
   {
    "id": 295,
    "name": "Limpeza dos módulos",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-03-24"
@@ -1028,10 +1028,10 @@
   {
    "id": 296,
    "name": "Definições novo rearranjo (Solicitado pelo Eng. Eletricista da Apolo Solar)",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-01-26",
    "created": "2026-03-24"
@@ -1039,10 +1039,10 @@
   {
    "id": 297,
    "name": "Medições de VOC nas strings após o rearranjo e conexão nos inversores",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-02-07",
    "created": "2026-03-24"
@@ -1050,10 +1050,10 @@
   {
    "id": 298,
    "name": "Organização dos cabos CC sob as mesas",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-02-07",
    "created": "2026-03-24"
@@ -1061,10 +1061,10 @@
   {
    "id": 299,
    "name": "Vedação em dutos e caixas de passagens",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-02-07",
    "created": "2026-03-24"
@@ -1072,10 +1072,10 @@
   {
    "id": 300,
    "name": "Retirada do inversor CHINT danificado e reposicionamento do inversor da CANADIAN",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-02-25",
    "created": "2026-03-24"
@@ -1083,10 +1083,10 @@
   {
    "id": 301,
    "name": "Instalação de novos extintores",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-02-07",
    "created": "2026-03-24"
@@ -1094,10 +1094,10 @@
   {
    "id": 302,
    "name": "Testes no monitoramento dos inversores",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-02-05",
    "created": "2026-03-24"
@@ -1105,10 +1105,10 @@
   {
    "id": 303,
    "name": "Religação SE após sobretensão",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-02-05",
    "created": "2026-03-24"
@@ -1116,10 +1116,10 @@
   {
    "id": 304,
    "name": "Testes e registros para garantia CHINT Inversor 1",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-02-10",
    "created": "2026-03-24"
@@ -1127,10 +1127,10 @@
   {
    "id": 305,
    "name": "Devolução de inversor CANADIAN (SN F23KNB1100110 | Modelo CS3-AS-XXT00005A-D2_E)",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-02-12",
    "created": "2026-03-24"
@@ -1138,10 +1138,10 @@
   {
    "id": 306,
    "name": "Testes no monitoramento dos inversores, conforme solicitado pela CHINT e Eng. Leonardo.",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-02-16",
    "created": "2026-03-24"
@@ -1149,10 +1149,10 @@
   {
    "id": 308,
    "name": "Teste da CA dos inversores",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-02-25",
    "created": "2026-03-24"
@@ -1160,10 +1160,10 @@
   {
    "id": 309,
    "name": "Instalação/ configuração das últimas câmeras no perímetro da usina conforme escopo contratado",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-02-24",
    "created": "2026-03-24"
@@ -1171,10 +1171,10 @@
   {
    "id": 310,
    "name": "Instalação de antena amplificadora de sinal",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-02-24",
    "created": "2026-03-24"
@@ -1182,10 +1182,10 @@
   {
    "id": 311,
    "name": "Configuração das câmeras através de sistema fornecido pela Apolo Solar",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-03-24"
@@ -1193,10 +1193,10 @@
   {
    "id": 312,
    "name": "Serviços de cabeamento e configuração das câmeras (realizado por terceiros contratados)",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": "2026-02-24",
    "created": "2026-03-24"
@@ -1204,10 +1204,10 @@
   {
    "id": 313,
    "name": "Acionar Garantia Chint",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 3,
    "deadline": null,
    "created": "2026-03-25"
@@ -1215,10 +1215,10 @@
   {
    "id": 314,
    "name": "Verificar funcionamento de câmera",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-03-25"
@@ -1226,10 +1226,10 @@
   {
    "id": 315,
    "name": "Verificar inversor",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-03-25"
@@ -1237,10 +1237,10 @@
   {
    "id": 316,
    "name": "Acionar garantia de módulos GCL",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 2,
    "deadline": null,
    "created": "2026-03-26"
@@ -1248,10 +1248,10 @@
   {
    "id": 317,
    "name": "Enviar tapete isolante de Ibiraçu para Linhares",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-03-31"
@@ -1259,10 +1259,10 @@
   {
    "id": 318,
    "name": "Acionamento de garantia módulos GCL",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-04-01"
@@ -1270,10 +1270,10 @@
   {
    "id": 319,
    "name": "Enviar material do Rio para PK",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 2 + Responsável 6",
+   "resp": "LEONARDO DE CASTRO FERREIRA + TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-04-01"
@@ -1281,10 +1281,10 @@
   {
    "id": 320,
    "name": "Limpeza de lixo queimado",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-04-07"
@@ -1292,10 +1292,10 @@
   {
    "id": 321,
    "name": "Porta-Chaves nos Contêineres das Usinas",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-04-28"
@@ -1303,10 +1303,10 @@
   {
    "id": 322,
    "name": "Tampar a caixa d'água",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 0,
    "deadline": null,
    "created": "2026-05-06"
@@ -1314,10 +1314,10 @@
   {
    "id": 323,
    "name": "Marimbondo na caixa de passagem",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-05-06"
@@ -1325,10 +1325,10 @@
   {
    "id": 324,
    "name": "Solicitação de água para limpeza de placas",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 1,
    "deadline": null,
    "created": "2026-05-06"
@@ -1336,10 +1336,10 @@
   {
    "id": 325,
    "name": "Objetos descartados inadequadamente",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "11: EM APROVAÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-05-08"
@@ -1347,10 +1347,10 @@
   {
    "id": 326,
    "name": "Objetos descartados inadequadamente",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-05-08"
@@ -1358,10 +1358,10 @@
   {
    "id": 327,
    "name": "Caixas de passagem abertas",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 0,
    "deadline": null,
    "created": "2026-05-08"
@@ -1369,10 +1369,10 @@
   {
    "id": 328,
    "name": "Canaletas de drenagem",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 0,
    "deadline": null,
    "created": "2026-05-08"
@@ -1380,10 +1380,10 @@
   {
    "id": 329,
    "name": "Mesa inacabada (buscar módulos em PK)",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-05-08"
@@ -1391,10 +1391,10 @@
   {
    "id": 330,
    "name": "Capinar terreno",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-05-08"
@@ -1402,10 +1402,10 @@
   {
    "id": 331,
    "name": "Capinar terreno",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "11: EM APROVAÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-05-08"
@@ -1413,10 +1413,10 @@
   {
    "id": 332,
    "name": "Aterramento do inversor",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-05-08"
@@ -1424,10 +1424,10 @@
   {
    "id": 333,
    "name": "Bomba d'água",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-05-08"
@@ -1435,10 +1435,10 @@
   {
    "id": 334,
    "name": "Módulo WIFI CSI",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 2,
    "deadline": null,
    "created": "2026-05-08"
@@ -1446,10 +1446,10 @@
   {
    "id": 335,
    "name": "Quadro de cargas sem tampa",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-05-08"
@@ -1457,10 +1457,10 @@
   {
    "id": 336,
    "name": "Lixeiras",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 0,
    "deadline": null,
    "created": "2026-05-08"
@@ -1468,10 +1468,10 @@
   {
    "id": 337,
    "name": "Mini ninho de marimbondo (Usina 2)",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-05-08"
@@ -1479,10 +1479,10 @@
   {
    "id": 338,
    "name": "Sinais de ferrugem",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-05-08"
@@ -1490,10 +1490,10 @@
   {
    "id": 339,
    "name": "Cadeado para todas as portas e portões das usinas",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-05-08"
@@ -1501,10 +1501,10 @@
   {
    "id": 340,
    "name": "Antena Starlink (Buscar em PK)",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-05-08"
@@ -1512,10 +1512,10 @@
   {
    "id": 341,
    "name": "Inversor WEG 01 com conectores soltos",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-05-08"
@@ -1523,10 +1523,10 @@
   {
    "id": 342,
    "name": "Religar Usinas I e II",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": "2026-05-14",
    "created": "2026-05-13"
@@ -1534,10 +1534,10 @@
   {
    "id": 343,
    "name": "Conectar inversores na internet",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-05-14"
@@ -1545,10 +1545,10 @@
   {
    "id": 344,
    "name": "Objetos em locais inadequados",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-05-18"
@@ -1556,10 +1556,10 @@
   {
    "id": 345,
    "name": "Grade do SKID da usina 02",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-05-18"
@@ -1567,10 +1567,10 @@
   {
    "id": 346,
    "name": "Água parada",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-05-18"
@@ -1578,10 +1578,10 @@
   {
    "id": 347,
    "name": "Caixas de passagem e aterramento abertas",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-05-18"
@@ -1589,10 +1589,10 @@
   {
    "id": 348,
    "name": "Plantas entre os módulos",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-05-18"
@@ -1600,10 +1600,10 @@
   {
    "id": 349,
    "name": "Marimbomdos",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-05-18"
@@ -1611,10 +1611,10 @@
   {
    "id": 350,
    "name": "Substituição de TC EDP ES",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 3,
    "deadline": null,
    "created": "2026-05-19"
@@ -1622,10 +1622,10 @@
   {
    "id": 351,
    "name": "Desalinhamento dos módulos",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-05-21"
@@ -1633,10 +1633,10 @@
   {
    "id": 352,
    "name": "Desalinhamento de módulos",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-05-21"
@@ -1644,10 +1644,10 @@
   {
    "id": 353,
    "name": "Providenciar desligamento da SE de medição",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 2,
    "deadline": null,
    "created": "2026-05-21"
@@ -1655,10 +1655,10 @@
   {
    "id": 354,
    "name": "Colocar câmera em funcionamento",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-05-22"
@@ -1666,10 +1666,10 @@
   {
    "id": 355,
    "name": "Consertar fechadura do contêiner",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-05-22"
@@ -1677,10 +1677,10 @@
   {
    "id": 356,
    "name": "Corrigir buracos de terra na cerca da cabine de medição",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-05-22"
@@ -1688,10 +1688,10 @@
   {
    "id": 357,
    "name": "Consertar caixas de inspeção de aterramento",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-05-22"
@@ -1699,10 +1699,10 @@
   {
    "id": 358,
    "name": "Verificar estrutura civil da cabine de medição",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-05-22"
@@ -1710,10 +1710,10 @@
   {
    "id": 359,
    "name": "Realizar reparos civis na fachada da cabine de medição",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-05-22"
@@ -1721,7 +1721,7 @@
   {
    "id": 364,
    "name": "Limpeza de vegetação",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
    "resp": "Sem responsável",
@@ -1732,10 +1732,10 @@
   {
    "id": 366,
    "name": "Orçamentos",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "Responsável 2",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "priority": 2,
    "deadline": null,
    "created": "2026-05-27"
@@ -1743,10 +1743,10 @@
   {
    "id": 367,
    "name": "Substituir módulos avariados",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-05-28"
@@ -1754,10 +1754,10 @@
   {
    "id": 368,
    "name": "Investigar mau cheiro forte",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-05-29"
@@ -1765,10 +1765,10 @@
   {
    "id": 369,
    "name": "Roedores no QGBT",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-05-29"
@@ -1776,10 +1776,10 @@
   {
    "id": 370,
    "name": "Identificar problemas nos módulos do inversor 02 (Canadian)",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-05-29"
@@ -1787,10 +1787,10 @@
   {
    "id": 371,
    "name": "Plano de controle de Pragas",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-05-29"
@@ -1798,10 +1798,10 @@
   {
    "id": 372,
    "name": "Diagnóstico de Falha de Rotação - Tracker 2",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 2 + Responsável 6",
+   "resp": "LEONARDO DE CASTRO FERREIRA + TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-06-05"
@@ -1809,10 +1809,10 @@
   {
    "id": 373,
    "name": "Levantamento de materiais",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": "2026-06-12",
    "created": "2026-06-08"
@@ -1820,7 +1820,7 @@
   {
    "id": 374,
    "name": "INFORMAÇÕES GERAIS",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "01_in_progress",
    "resp": "Sem responsável",
@@ -1831,10 +1831,10 @@
   {
    "id": 375,
    "name": "Realizar manutenção inversores WEG",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-06-09"
@@ -1842,10 +1842,10 @@
   {
    "id": 376,
    "name": "Manutenção preventiva",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-06-09"
@@ -1853,10 +1853,10 @@
   {
    "id": 377,
    "name": "Verificar inversores usinas I e III de Ibiraçu",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-06-15"
@@ -1864,10 +1864,10 @@
   {
    "id": 378,
    "name": "Ninhos de marimbondo",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-06-19"
@@ -1875,10 +1875,10 @@
   {
    "id": 379,
    "name": "Objetos descartados inadequadamente",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-06-19"
@@ -1886,10 +1886,10 @@
   {
    "id": 380,
    "name": "Módulos danificados",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-06-23"
@@ -1897,10 +1897,10 @@
   {
    "id": 381,
    "name": "Led do contêiner",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 0,
    "deadline": null,
    "created": "2026-06-23"
@@ -1908,10 +1908,10 @@
   {
    "id": 382,
    "name": "Retirada de lixo das usinas",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "01_in_progress",
-   "resp": "Responsável 2 + Responsável 6",
+   "resp": "LEONARDO DE CASTRO FERREIRA + TERRA CONSTRUÇÕES",
    "priority": 1,
    "deadline": null,
    "created": "2026-06-24"
@@ -1919,10 +1919,10 @@
   {
    "id": 383,
    "name": "Avaliar cubículo de entrada",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 3,
    "deadline": null,
    "created": "2026-06-30"
@@ -1930,14 +1930,13 @@
   {
    "id": 384,
    "name": "Tampar caixa d´água de Linhares",
-   "project": "1: MANUTENÇÃO",
+   "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Responsável 6",
+   "resp": "TERRA CONSTRUÇÕES",
    "priority": 2,
    "deadline": null,
    "created": "2026-07-01"
   }
- ],
- "_nota": "semente inicial da exportação CSV; sera substituida pelo GitHub Actions"
+ ]
 }
