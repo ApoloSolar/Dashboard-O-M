@@ -357,7 +357,6 @@ function initFilters(){
 }
 function applyFilters(){
   return DATA.filter(d=>{
-    if(F.hideDone&&isFinalized(d))return false;
     if(F.project&&d.project!==F.project)return false;
     if(F.usina&&!(d.usinas||[]).includes(F.usina))return false;
     if(F.tipo&&d.tipo!==F.tipo)return false;
@@ -425,8 +424,11 @@ function renderExec(rows){
       <span class="exectime">${fmtDH(x.h)}</span>
     </div>`;}).join("");
 }
-function renderPipeline(rows){
-  const stages=uniq(DATA.map(d=>d.stage)).filter(s=>s&&s!=="—").sort((a,b)=>stageOrder(a)-stageOrder(b));
+function renderPipeline(allRows){
+  // O toggle "ocultar finalizadas" afeta SÓ a pizza e sua legenda.
+  const rows = F.hideDone ? allRows.filter(d=>!isFinalized(d)) : allRows;
+  let stages=uniq(DATA.map(d=>d.stage)).filter(s=>s&&s!=="—").sort((a,b)=>stageOrder(a)-stageOrder(b));
+  if(F.hideDone) stages=stages.filter(s=>stageId(s)!=="12");
   const total=rows.length||1;
   const counts=stages.map(s=>({s,c:rows.filter(d=>d.stage===s).length}));
   // donut (pizza) em SVG
