@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-02T14:29:03+00:00",
- "count": 169,
+ "generated_at": "2026-07-02T16:19:37+00:00",
+ "count": 168,
  "tasks": [
   {
    "id": 6,
@@ -3330,9 +3330,9 @@
    "id": 375,
    "name": "Realizar manutenção inversores WEG",
    "project": "MANUTENÇÃO",
-   "stage": "9: AGUARDANDO EXECUÇÃO",
+   "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "TERRA CONSTRUÇÕES",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
    "usinas": [
     "Apolo I - Linhares"
    ],
@@ -3344,7 +3344,7 @@
    "created_dt": "2026-06-09 14:52:24",
    "closed": null,
    "closed_dt": null,
-   "stage_since": "2026-06-23 17:49:21",
+   "stage_since": "2026-07-02 16:01:24",
    "lead_days": null
   },
   {
@@ -3537,27 +3537,6 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-07-01 13:20:13",
-   "lead_days": null
-  },
-  {
-   "id": 385,
-   "name": "Inversores WEG defeituosos",
-   "project": "MANUTENÇÃO",
-   "stage": "9: AGUARDANDO EXECUÇÃO",
-   "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
-   "severidade": "Muito alta",
-   "tipo": "Corretiva",
-   "priority": 2,
-   "deadline": null,
-   "created": "2026-07-02",
-   "created_dt": "2026-07-02 11:22:54",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-07-02 11:23:36",
    "lead_days": null
   }
  ]
