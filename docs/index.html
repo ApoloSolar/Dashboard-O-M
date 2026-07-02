@@ -298,13 +298,20 @@ function parseDT(s){
   const d=new Date(t); return isNaN(d.getTime())?null:d;
 }
 function isFinalized(d){ return stageId(d.stage)==="12"; }
-// Tempo decorrido em horas: da criação até a finalização (se finalizada),
-// ou até a última atualização do bot (se ainda aberta).
+// Tempo decorrido em horas:
+//  - Finalizada: total da CRIAÇÃO até a finalização.
+//  - Aberta: desde que ENTROU NO ESTÁGIO ATUAL (date_last_stage_update)
+//            até a última atualização do bot.
 function elapsedHours(d){
-  const s=parseDT(d.created_dt||d.created); if(!s)return null;
-  const e = isFinalized(d) ? (parseDT(d.closed_dt||d.closed)||GENERATED) : GENERATED;
-  if(!e)return null;
-  return Math.max(0,(e-s)/3600000);
+  if(isFinalized(d)){
+    const s=parseDT(d.created_dt||d.created);
+    const e=parseDT(d.closed_dt||d.closed)||GENERATED;
+    if(!s||!e)return null;
+    return Math.max(0,(e-s)/3600000);
+  }
+  const s=parseDT(d.stage_since||d.created_dt||d.created);
+  if(!s||!GENERATED)return null;
+  return Math.max(0,(GENERATED-s)/3600000);
 }
 function fmtDH(h){ if(h==null)return "—"; const t=Math.round(h); const dd=Math.floor(t/24),hh=t%24; return dd>0?`${dd}d ${hh}h`:`${hh}h`; }
 function stageId(s){ if(!s||s==="—")return null; const m=String(s).match(/^(\d+)/); return m?m[1]:null; }
