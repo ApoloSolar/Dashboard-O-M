@@ -95,6 +95,10 @@
   .panel .cap{font-size:11.5px;color:var(--text3);margin:0 0 16px;padding-left:13px}
 
   /* ─── PIPELINE (donut) ─── */
+  .pipe-head{display:flex;align-items:center;justify-content:space-between;gap:10px}
+  .pipe-toggle{font-family:var(--mono);font-size:10.5px;letter-spacing:.04em;background:var(--bg2);border:1px solid var(--border);border-radius:7px;padding:6px 11px;cursor:pointer;color:var(--text3);transition:border-color .15s,color .15s,background .15s;white-space:nowrap}
+  .pipe-toggle:hover{border-color:var(--amber-line);color:var(--amber);background:var(--bg3)}
+  .pipe-toggle.on{border-color:var(--amber-line);color:var(--amber);background:var(--amber-dim)}
   .pipe-wrap{display:flex;gap:22px;align-items:center;flex-wrap:wrap;margin-bottom:4px}
   #pie{flex:none;display:flex;align-items:center;justify-content:center}
   #pie svg text.pie-num{fill:var(--text);font-family:var(--mono);font-size:30px;font-weight:600}
@@ -191,14 +195,17 @@
   <div class="kpis" id="kpis"></div>
 
   <div class="panel" style="margin-top:16px">
-    <h2>Aguardando execução há mais tempo</h2>
-    <p class="cap">As 5 tarefas com status "Aguardando execução" com maior tempo de abertura — da criação até a última atualização do bot.</p>
+    <h2 id="exec-title">Tarefas há mais tempo em aberto</h2>
+    <p class="cap" id="exec-cap">As 5 com maior tempo em aberto — da criação até a última atualização do bot.</p>
     <div id="execlist"></div>
   </div>
 
   <div class="grid">
     <div class="panel">
-      <h2>Pipeline de manutenção</h2>
+      <div class="pipe-head">
+        <h2>Pipeline de manutenção</h2>
+        <button class="pipe-toggle" id="toggle-done">ocultar finalizadas</button>
+      </div>
       <p class="cap">Distribuição das ordens por estágio. Clique num estágio para filtrar.</p>
       <div class="pipe-wrap">
         <div id="pie"></div>
@@ -312,7 +319,7 @@ function fmtDate(d){ if(!d)return "—"; const p=d.split("-"); return p.length==
 function fmtLead(v){ return (v==null)?"—":String(v).replace(".",",")+" d"; }
 function escapeHtml(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
 
-const F={project:"",usina:"",tipo:"",sev:"",stage:"",resp:"",prio:"",q:""};
+const F={project:"",usina:"",tipo:"",sev:"",stage:"",resp:"",prio:"",q:"",hideDone:false};
 function uniq(a){return [...new Set(a)];}
 function fill(sel,items,label,cur){
   const el=document.getElementById(sel);el.innerHTML="";
@@ -339,12 +346,18 @@ function initFilters(){
   on("f-project","project");on("f-usina","usina");on("f-tipo","tipo");on("f-sev","sev");
   on("f-stage","stage");on("f-resp","resp");on("f-prio","prio");
   document.getElementById("search").oninput=e=>{F.q=e.target.value.toLowerCase();render();};
+  document.getElementById("toggle-done").onclick=e=>{
+    F.hideDone=!F.hideDone;
+    e.target.classList.toggle("on",F.hideDone);
+    e.target.textContent=F.hideDone?"mostrar finalizadas":"ocultar finalizadas";
+    render();};
   document.getElementById("f-clear").onclick=()=>{
-    Object.keys(F).forEach(k=>F[k]="");
+    Object.keys(F).forEach(k=>F[k]=(k==="hideDone")?false:"");
     document.querySelectorAll("select").forEach(s=>s.value="");document.getElementById("search").value="";render();};
 }
 function applyFilters(){
   return DATA.filter(d=>{
+    if(F.hideDone&&isFinalized(d))return false;
     if(F.project&&d.project!==F.project)return false;
     if(F.usina&&!(d.usinas||[]).includes(F.usina))return false;
     if(F.tipo&&d.tipo!==F.tipo)return false;
@@ -389,18 +402,25 @@ function hbars(elId,arr,colorFn){
      <span class="bct">${c}</span></div>`).join(""):`<div class="empty">Sem dados</div>`;
 }
 function renderExec(rows){
-  const arr=rows.filter(d=>stageId(d.stage)==="9")   // 9 = Aguardando execução 10 = Executando
-    .map(d=>({d,h:elapsedHours(d)})).filter(x=>x.h!=null)
+  // Com estágio selecionado: rows já vem filtrado por ele. Sem estágio: só não finalizadas.
+  const base = F.stage ? rows : rows.filter(d=>!isFinalized(d));
+  const titulo = F.stage ? `${stageLabel(F.stage)} há mais tempo` : "Tarefas há mais tempo em aberto";
+  const cap = F.stage
+    ? `As 5 tarefas em "${stageLabel(F.stage)}" com maior tempo em aberto — da criação até a última atualização do bot.`
+    : "As 5 tarefas não finalizadas com maior tempo em aberto — da criação até a última atualização do bot.";
+  document.getElementById("exec-title").textContent = titulo;
+  document.getElementById("exec-cap").textContent = cap;
+  const arr=base.map(d=>({d,h:elapsedHours(d)})).filter(x=>x.h!=null)
     .sort((a,b)=>b.h-a.h).slice(0,5);
   const el=document.getElementById("execlist");
-  if(!arr.length){el.innerHTML=`<div class="empty">Nenhuma tarefa em execução no filtro atual</div>`;return;}
+  if(!arr.length){el.innerHTML=`<div class="empty">Nenhuma tarefa no filtro atual</div>`;return;}
   el.innerHTML=arr.map((x,i)=>{
     const us=(x.d.usinas&&x.d.usinas.length)?x.d.usinas.join(", "):"—";
     return `<div class="execrow">
       <span class="execrank">${i+1}</span>
       <div class="execmain">
         <div class="execname">${escapeHtml(x.d.name)}</div>
-        <div class="execmeta">#${x.d.id} · ${escapeHtml(us)} · ${escapeHtml(x.d.resp)}</div>
+        <div class="execmeta">#${x.d.id} · ${stageLabel(x.d.stage)} · ${escapeHtml(us)} · ${escapeHtml(x.d.resp)}</div>
       </div>
       <span class="exectime">${fmtDH(x.h)}</span>
     </div>`;}).join("");
