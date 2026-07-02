@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T13:47:28+00:00",
+ "generated_at": "2026-07-02T13:59:40+00:00",
  "count": 177,
  "tasks": [
   {
@@ -18,6 +18,7 @@
    "created_dt": "2026-01-19 17:35:07",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-01-30 12:01:00",
    "lead_days": null
   },
   {
@@ -38,6 +39,7 @@
    "created_dt": "2026-01-20 14:14:19",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 70.1
   },
   {
@@ -58,6 +60,7 @@
    "created_dt": "2026-01-20 14:14:42",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 70.1
   },
   {
@@ -78,6 +81,7 @@
    "created_dt": "2026-01-20 14:21:35",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-03-31 17:23:03",
    "lead_days": null
   },
   {
@@ -98,6 +102,7 @@
    "created_dt": "2026-01-20 14:22:05",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:30:40",
+   "stage_since": "2026-03-31 17:30:40",
    "lead_days": 70.1
   },
   {
@@ -118,6 +123,7 @@
    "created_dt": "2026-01-26 18:31:58",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 64.0
   },
   {
@@ -136,6 +142,7 @@
    "created_dt": "2026-01-26 18:34:11",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-01-26 18:34:12",
    "lead_days": null
   },
   {
@@ -154,6 +161,7 @@
    "created_dt": "2026-01-26 18:34:11",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-01-26 18:34:12",
    "lead_days": null
   },
   {
@@ -174,6 +182,7 @@
    "created_dt": "2026-01-26 20:04:35",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-24 19:57:04",
    "lead_days": null
   },
   {
@@ -194,6 +203,7 @@
    "created_dt": "2026-01-26 20:04:35",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-24 19:57:07",
    "lead_days": null
   },
   {
@@ -214,6 +224,7 @@
    "created_dt": "2026-01-26 20:04:35",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-24 19:57:09",
    "lead_days": null
   },
   {
@@ -234,6 +245,7 @@
    "created_dt": "2026-01-26 20:04:35",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-24 19:57:11",
    "lead_days": null
   },
   {
@@ -254,6 +266,7 @@
    "created_dt": "2026-02-13 20:13:20",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": null
   },
   {
@@ -274,6 +287,7 @@
    "created_dt": "2026-02-13 20:15:44",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:03",
+   "stage_since": "2026-03-31 17:23:03",
    "lead_days": 45.9
   },
   {
@@ -294,6 +308,7 @@
    "created_dt": "2026-02-13 20:16:33",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:03",
+   "stage_since": "2026-03-31 17:23:03",
    "lead_days": 45.9
   },
   {
@@ -314,6 +329,7 @@
    "created_dt": "2026-02-13 20:23:01",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-04-11 06:31:14",
    "lead_days": null
   },
   {
@@ -334,6 +350,7 @@
    "created_dt": "2026-02-13 20:24:58",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-04-10 17:46:57",
    "lead_days": null
   },
   {
@@ -354,6 +371,7 @@
    "created_dt": "2026-02-13 20:26:02",
    "closed": "2026-06-30",
    "closed_dt": "2026-06-30 14:22:03",
+   "stage_since": "2026-06-30 14:22:03",
    "lead_days": 136.7
   },
   {
@@ -374,6 +392,7 @@
    "created_dt": "2026-02-13 20:27:31",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-12 17:10:20",
    "lead_days": null
   },
   {
@@ -394,6 +413,7 @@
    "created_dt": "2026-02-25 20:24:01",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-02-25 20:24:01",
    "lead_days": null
   },
   {
@@ -414,6 +434,7 @@
    "created_dt": "2026-03-02 09:50:46",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 29.3
   },
   {
@@ -434,6 +455,7 @@
    "created_dt": "2026-03-02 09:54:26",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:30:44",
+   "stage_since": "2026-03-31 17:30:44",
    "lead_days": 29.3
   },
   {
@@ -454,6 +476,7 @@
    "created_dt": "2026-03-02 16:26:57",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": null
   },
   {
@@ -474,6 +497,7 @@
    "created_dt": "2026-03-05 19:39:03",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": null
   },
   {
@@ -494,6 +518,7 @@
    "created_dt": "2026-03-05 21:03:34",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:03",
+   "stage_since": "2026-03-31 17:23:03",
    "lead_days": 25.8
   },
   {
@@ -514,6 +539,7 @@
    "created_dt": "2026-03-05 21:05:44",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": null
   },
   {
@@ -534,6 +560,7 @@
    "created_dt": "2026-03-05 21:22:58",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-12 17:06:06",
    "lead_days": null
   },
   {
@@ -554,6 +581,7 @@
    "created_dt": "2026-03-05 21:27:13",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 25.8
   },
   {
@@ -574,6 +602,7 @@
    "created_dt": "2026-03-05 21:31:51",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-06-14 19:46:31",
    "lead_days": null
   },
   {
@@ -594,6 +623,7 @@
    "created_dt": "2026-03-06 19:15:48",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 24.9
   },
   {
@@ -614,6 +644,7 @@
    "created_dt": "2026-03-06 19:17:44",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 24.9
   },
   {
@@ -634,6 +665,7 @@
    "created_dt": "2026-03-06 23:42:58",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 24.7
   },
   {
@@ -654,6 +686,7 @@
    "created_dt": "2026-03-10 12:12:06",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 21.2
   },
   {
@@ -674,6 +707,7 @@
    "created_dt": "2026-03-17 13:03:59",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-12 17:18:22",
    "lead_days": null
   },
   {
@@ -694,6 +728,7 @@
    "created_dt": "2026-03-23 13:52:51",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-20 18:59:39",
    "lead_days": null
   },
   {
@@ -714,6 +749,7 @@
    "created_dt": "2026-03-23 14:42:29",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-15 12:06:40",
    "lead_days": null
   },
   {
@@ -734,6 +770,7 @@
    "created_dt": "2026-03-23 14:42:41",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-19 12:16:07",
    "lead_days": null
   },
   {
@@ -754,6 +791,7 @@
    "created_dt": "2026-03-23 16:27:31",
    "closed": "2026-06-09",
    "closed_dt": "2026-06-09 16:19:53",
+   "stage_since": "2026-06-09 16:19:53",
    "lead_days": 78.0
   },
   {
@@ -774,6 +812,7 @@
    "created_dt": "2026-03-23 16:34:15",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-12 17:15:12",
    "lead_days": null
   },
   {
@@ -794,6 +833,7 @@
    "created_dt": "2026-03-23 18:17:22",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-12 16:47:08",
    "lead_days": null
   },
   {
@@ -814,6 +854,7 @@
    "created_dt": "2026-03-24 12:05:19",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-03-24 13:41:21",
    "lead_days": null
   },
   {
@@ -834,6 +875,7 @@
    "created_dt": "2026-03-24 12:05:19",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-03-24 13:41:21",
    "lead_days": null
   },
   {
@@ -854,6 +896,7 @@
    "created_dt": "2026-03-24 18:31:44",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 7.0
   },
   {
@@ -874,6 +917,7 @@
    "created_dt": "2026-03-24 18:31:44",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 7.0
   },
   {
@@ -894,6 +938,7 @@
    "created_dt": "2026-03-24 18:38:16",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -914,6 +959,7 @@
    "created_dt": "2026-03-24 18:38:16",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -934,6 +980,7 @@
    "created_dt": "2026-03-24 18:38:16",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -954,6 +1001,7 @@
    "created_dt": "2026-03-24 18:56:04",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-12 16:49:37",
    "lead_days": null
   },
   {
@@ -974,6 +1022,7 @@
    "created_dt": "2026-03-24 18:58:02",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -994,6 +1043,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": null
   },
   {
@@ -1014,6 +1064,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1034,6 +1085,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1054,6 +1106,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1074,6 +1127,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-12 16:49:00",
    "lead_days": null
   },
   {
@@ -1094,6 +1148,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1114,6 +1169,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": null
   },
   {
@@ -1134,6 +1190,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1154,6 +1211,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1174,6 +1232,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1194,6 +1253,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1214,6 +1274,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1234,6 +1295,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1254,6 +1316,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1274,6 +1337,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1294,6 +1358,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1314,6 +1379,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1334,6 +1400,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1354,6 +1421,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1374,6 +1442,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1394,6 +1463,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1414,6 +1484,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1434,6 +1505,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1454,6 +1526,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1474,6 +1547,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1494,6 +1568,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1514,6 +1589,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1534,6 +1610,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1554,6 +1631,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1574,6 +1652,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1594,6 +1673,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1614,6 +1694,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1634,6 +1715,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1654,6 +1736,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1674,6 +1757,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1694,6 +1778,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1714,6 +1799,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1734,6 +1820,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1754,6 +1841,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1774,6 +1862,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1794,6 +1883,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1814,6 +1904,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1834,6 +1925,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1854,6 +1946,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": null
   },
   {
@@ -1874,6 +1967,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1894,6 +1988,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1914,6 +2009,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1934,6 +2030,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1954,6 +2051,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1974,6 +2072,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1994,6 +2093,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -2014,6 +2114,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -2034,6 +2135,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -2054,6 +2156,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -2074,6 +2177,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-04-02 16:28:29",
    "lead_days": null
   },
   {
@@ -2094,6 +2198,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -2114,6 +2219,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -2134,6 +2240,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -2154,6 +2261,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": null
   },
   {
@@ -2174,6 +2282,7 @@
    "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
+   "stage_since": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -2194,6 +2303,7 @@
    "created_dt": "2026-03-25 16:14:11",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-19 12:17:29",
    "lead_days": null
   },
   {
@@ -2214,6 +2324,7 @@
    "created_dt": "2026-03-25 17:41:55",
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:30:42",
+   "stage_since": "2026-03-31 17:30:42",
    "lead_days": 6.0
   },
   {
@@ -2234,6 +2345,7 @@
    "created_dt": "2026-03-25 17:53:42",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-12 16:55:51",
    "lead_days": null
   },
   {
@@ -2254,6 +2366,7 @@
    "created_dt": "2026-03-26 18:36:11",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-20 15:22:37",
    "lead_days": null
   },
   {
@@ -2274,6 +2387,7 @@
    "created_dt": "2026-03-31 17:12:11",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-12 17:19:09",
    "lead_days": null
   },
   {
@@ -2294,6 +2408,7 @@
    "created_dt": "2026-04-01 13:42:41",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-12 16:55:41",
    "lead_days": null
   },
   {
@@ -2314,6 +2429,7 @@
    "created_dt": "2026-04-01 19:57:23",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-04-11 06:23:57",
    "lead_days": null
   },
   {
@@ -2334,6 +2450,7 @@
    "created_dt": "2026-04-07 17:33:49",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-12 17:19:43",
    "lead_days": null
   },
   {
@@ -2357,6 +2474,7 @@
    "created_dt": "2026-04-28 13:09:54",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-12 17:40:25",
    "lead_days": null
   },
   {
@@ -2377,6 +2495,7 @@
    "created_dt": "2026-05-06 13:25:41",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-12 17:20:39",
    "lead_days": null
   },
   {
@@ -2397,6 +2516,7 @@
    "created_dt": "2026-05-06 15:18:56",
    "closed": "2026-05-19",
    "closed_dt": "2026-05-19 12:27:54",
+   "stage_since": "2026-05-19 12:27:54",
    "lead_days": 12.9
   },
   {
@@ -2417,6 +2537,7 @@
    "created_dt": "2026-05-06 18:09:28",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-19 15:39:46",
    "lead_days": null
   },
   {
@@ -2437,6 +2558,7 @@
    "created_dt": "2026-05-08 15:20:32",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-06-05 15:57:35",
    "lead_days": null
   },
   {
@@ -2457,6 +2579,7 @@
    "created_dt": "2026-05-08 15:25:16",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-20 14:05:27",
    "lead_days": null
   },
   {
@@ -2477,6 +2600,7 @@
    "created_dt": "2026-05-08 15:50:30",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-19 11:41:13",
    "lead_days": null
   },
   {
@@ -2497,6 +2621,7 @@
    "created_dt": "2026-05-08 16:52:59",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-15 12:34:04",
    "lead_days": null
   },
   {
@@ -2517,6 +2642,7 @@
    "created_dt": "2026-05-08 17:01:49",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-15 12:34:50",
    "lead_days": null
   },
   {
@@ -2537,6 +2663,7 @@
    "created_dt": "2026-05-08 17:20:44",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-12 17:49:39",
    "lead_days": null
   },
   {
@@ -2557,6 +2684,7 @@
    "created_dt": "2026-05-08 17:36:31",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-06-09 16:17:45",
    "lead_days": null
   },
   {
@@ -2577,6 +2705,7 @@
    "created_dt": "2026-05-08 17:40:10",
    "closed": "2026-05-19",
    "closed_dt": "2026-05-19 12:29:20",
+   "stage_since": "2026-05-19 12:29:20",
    "lead_days": 10.8
   },
   {
@@ -2597,6 +2726,7 @@
    "created_dt": "2026-05-08 17:45:28",
    "closed": "2026-06-09",
    "closed_dt": "2026-06-09 16:14:51",
+   "stage_since": "2026-06-09 16:14:51",
    "lead_days": 31.9
   },
   {
@@ -2617,6 +2747,7 @@
    "created_dt": "2026-05-08 17:47:41",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-12 17:35:54",
    "lead_days": null
   },
   {
@@ -2637,6 +2768,7 @@
    "created_dt": "2026-05-08 18:00:44",
    "closed": "2026-05-28",
    "closed_dt": "2026-05-28 14:32:01",
+   "stage_since": "2026-05-28 14:32:01",
    "lead_days": 19.9
   },
   {
@@ -2657,6 +2789,7 @@
    "created_dt": "2026-05-08 18:29:30",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-19 12:25:49",
    "lead_days": null
   },
   {
@@ -2677,6 +2810,7 @@
    "created_dt": "2026-05-08 18:46:09",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-18 19:07:04",
    "lead_days": null
   },
   {
@@ -2697,6 +2831,7 @@
    "created_dt": "2026-05-08 18:50:39",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-19 11:29:48",
    "lead_days": null
   },
   {
@@ -2720,6 +2855,7 @@
    "created_dt": "2026-05-08 19:07:08",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-12 17:32:37",
    "lead_days": null
   },
   {
@@ -2740,6 +2876,7 @@
    "created_dt": "2026-05-08 19:35:59",
    "closed": "2026-05-19",
    "closed_dt": "2026-05-19 17:22:58",
+   "stage_since": "2026-05-19 17:22:58",
    "lead_days": 10.9
   },
   {
@@ -2760,6 +2897,7 @@
    "created_dt": "2026-05-08 19:37:33",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-22 17:48:41",
    "lead_days": null
   },
   {
@@ -2780,6 +2918,7 @@
    "created_dt": "2026-05-13 16:35:15",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-19 12:17:06",
    "lead_days": null
   },
   {
@@ -2800,6 +2939,7 @@
    "created_dt": "2026-05-14 13:56:22",
    "closed": "2026-05-25",
    "closed_dt": "2026-05-25 11:39:00",
+   "stage_since": "2026-05-25 11:39:00",
    "lead_days": 10.9
   },
   {
@@ -2820,6 +2960,7 @@
    "created_dt": "2026-05-18 15:25:34",
    "closed": "2026-06-09",
    "closed_dt": "2026-06-09 16:18:51",
+   "stage_since": "2026-06-09 16:18:51",
    "lead_days": 22.0
   },
   {
@@ -2840,6 +2981,7 @@
    "created_dt": "2026-05-18 16:10:24",
    "closed": "2026-05-28",
    "closed_dt": "2026-05-28 13:42:23",
+   "stage_since": "2026-05-28 13:42:23",
    "lead_days": 9.9
   },
   {
@@ -2860,6 +3002,7 @@
    "created_dt": "2026-05-18 16:20:39",
    "closed": "2026-05-28",
    "closed_dt": "2026-05-28 17:41:59",
+   "stage_since": "2026-05-28 17:41:59",
    "lead_days": 10.1
   },
   {
@@ -2880,6 +3023,7 @@
    "created_dt": "2026-05-18 16:32:48",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-28 13:44:47",
    "lead_days": null
   },
   {
@@ -2900,6 +3044,7 @@
    "created_dt": "2026-05-18 17:10:51",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-18 18:03:04",
    "lead_days": null
   },
   {
@@ -2920,6 +3065,7 @@
    "created_dt": "2026-05-18 19:02:15",
    "closed": "2026-05-28",
    "closed_dt": "2026-05-28 13:40:47",
+   "stage_since": "2026-05-28 13:40:47",
    "lead_days": 9.8
   },
   {
@@ -2940,6 +3086,7 @@
    "created_dt": "2026-05-19 14:33:53",
    "closed": "2026-05-19",
    "closed_dt": "2026-05-19 17:23:28",
+   "stage_since": "2026-05-19 17:23:28",
    "lead_days": 0.1
   },
   {
@@ -2960,6 +3107,7 @@
    "created_dt": "2026-05-21 11:01:52",
    "closed": "2026-05-25",
    "closed_dt": "2026-05-25 14:13:46",
+   "stage_since": "2026-05-25 14:13:46",
    "lead_days": 4.1
   },
   {
@@ -2980,6 +3128,7 @@
    "created_dt": "2026-05-21 11:11:55",
    "closed": "2026-05-28",
    "closed_dt": "2026-05-28 13:37:04",
+   "stage_since": "2026-05-28 13:37:04",
    "lead_days": 7.1
   },
   {
@@ -3000,6 +3149,7 @@
    "created_dt": "2026-05-21 11:18:40",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-21 11:19:45",
    "lead_days": null
   },
   {
@@ -3020,6 +3170,7 @@
    "created_dt": "2026-05-22 17:31:32",
    "closed": "2026-05-27",
    "closed_dt": "2026-05-27 13:37:03",
+   "stage_since": "2026-05-27 13:37:03",
    "lead_days": 4.8
   },
   {
@@ -3040,6 +3191,7 @@
    "created_dt": "2026-05-22 17:51:48",
    "closed": "2026-05-25",
    "closed_dt": "2026-05-25 14:11:45",
+   "stage_since": "2026-05-25 14:11:45",
    "lead_days": 2.8
   },
   {
@@ -3060,6 +3212,7 @@
    "created_dt": "2026-05-22 17:57:27",
    "closed": "2026-06-09",
    "closed_dt": "2026-06-09 16:14:13",
+   "stage_since": "2026-06-09 16:14:13",
    "lead_days": 17.9
   },
   {
@@ -3080,6 +3233,7 @@
    "created_dt": "2026-05-22 18:00:04",
    "closed": "2026-05-26",
    "closed_dt": "2026-05-26 19:11:58",
+   "stage_since": "2026-05-26 19:11:58",
    "lead_days": 4.0
   },
   {
@@ -3100,6 +3254,7 @@
    "created_dt": "2026-05-22 18:03:47",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-26 12:32:54",
    "lead_days": null
   },
   {
@@ -3120,6 +3275,7 @@
    "created_dt": "2026-05-22 18:23:06",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-26 12:35:52",
    "lead_days": null
   },
   {
@@ -3140,6 +3296,7 @@
    "created_dt": "2026-05-24 20:37:13",
    "closed": "2026-05-25",
    "closed_dt": "2026-05-25 14:13:41",
+   "stage_since": "2026-05-25 14:13:41",
    "lead_days": 0.7
   },
   {
@@ -3160,6 +3317,7 @@
    "created_dt": "2026-05-27 12:15:38",
    "closed": "2026-06-08",
    "closed_dt": "2026-06-08 11:09:41",
+   "stage_since": "2026-06-08 11:09:41",
    "lead_days": 12.0
   },
   {
@@ -3180,6 +3338,7 @@
    "created_dt": "2026-05-28 20:41:53",
    "closed": "2026-06-03",
    "closed_dt": "2026-06-03 18:39:49",
+   "stage_since": "2026-06-03 18:39:49",
    "lead_days": 5.9
   },
   {
@@ -3200,6 +3359,7 @@
    "created_dt": "2026-05-29 13:06:28",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-05-29 13:49:05",
    "lead_days": null
   },
   {
@@ -3220,6 +3380,7 @@
    "created_dt": "2026-05-29 13:34:57",
    "closed": "2026-06-09",
    "closed_dt": "2026-06-09 15:16:15",
+   "stage_since": "2026-06-09 15:16:15",
    "lead_days": 11.1
   },
   {
@@ -3240,6 +3401,7 @@
    "created_dt": "2026-05-29 14:44:43",
    "closed": "2026-06-09",
    "closed_dt": "2026-06-09 15:17:18",
+   "stage_since": "2026-06-09 15:17:18",
    "lead_days": 11.0
   },
   {
@@ -3263,6 +3425,7 @@
    "created_dt": "2026-05-29 14:52:12",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-06-02 13:51:50",
    "lead_days": null
   },
   {
@@ -3283,6 +3446,7 @@
    "created_dt": "2026-06-05 13:28:57",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-06-08 16:49:59",
    "lead_days": null
   },
   {
@@ -3306,6 +3470,7 @@
    "created_dt": "2026-06-08 14:24:55",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-06-22 14:11:31",
    "lead_days": null
   },
   {
@@ -3324,6 +3489,7 @@
    "created_dt": "2026-06-09 14:48:50",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-06-09 14:48:50",
    "lead_days": null
   },
   {
@@ -3344,6 +3510,7 @@
    "created_dt": "2026-06-09 14:52:24",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-06-23 17:49:21",
    "lead_days": null
   },
   {
@@ -3364,6 +3531,7 @@
    "created_dt": "2026-06-09 17:06:11",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-06-09 17:06:11",
    "lead_days": null
   },
   {
@@ -3384,6 +3552,7 @@
    "created_dt": "2026-06-15 13:49:14",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-06-23 17:49:27",
    "lead_days": null
   },
   {
@@ -3404,6 +3573,7 @@
    "created_dt": "2026-06-19 13:34:47",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-06-22 14:11:21",
    "lead_days": null
   },
   {
@@ -3424,6 +3594,7 @@
    "created_dt": "2026-06-19 14:09:25",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-06-22 14:11:24",
    "lead_days": null
   },
   {
@@ -3444,6 +3615,7 @@
    "created_dt": "2026-06-23 17:50:00",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-06-23 17:53:00",
    "lead_days": null
   },
   {
@@ -3464,6 +3636,7 @@
    "created_dt": "2026-06-23 17:55:13",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-06-23 17:55:13",
    "lead_days": null
   },
   {
@@ -3487,6 +3660,7 @@
    "created_dt": "2026-06-24 19:23:56",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-06-24 19:23:56",
    "lead_days": null
   },
   {
@@ -3507,6 +3681,7 @@
    "created_dt": "2026-06-30 13:43:51",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-06-30 13:43:51",
    "lead_days": null
   },
   {
@@ -3527,6 +3702,7 @@
    "created_dt": "2026-07-01 13:20:08",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-07-01 13:20:13",
    "lead_days": null
   },
   {
@@ -3547,6 +3723,7 @@
    "created_dt": "2026-07-02 11:22:54",
    "closed": null,
    "closed_dt": null,
+   "stage_since": "2026-07-02 11:23:36",
    "lead_days": null
   }
  ]
