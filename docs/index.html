@@ -191,8 +191,8 @@
   <div class="kpis" id="kpis"></div>
 
   <div class="panel" style="margin-top:16px">
-    <h2>Em execução há mais tempo</h2>
-    <p class="cap">As 5 tarefas em "Executando" com maior tempo em aberto — da criação até a última atualização do bot.</p>
+    <h2>Aguardando execução há mais tempo</h2>
+    <p class="cap">As 5 tarefas com status "Aguardando execução" com maior tempo de abertura — da criação até a última atualização do bot.</p>
     <div id="execlist"></div>
   </div>
 
@@ -389,7 +389,7 @@ function hbars(elId,arr,colorFn){
      <span class="bct">${c}</span></div>`).join(""):`<div class="empty">Sem dados</div>`;
 }
 function renderExec(rows){
-  const arr=rows.filter(d=>stageId(d.stage)==="10")   // 10 = EXECUTANDO
+  const arr=rows.filter(d=>stageId(d.stage)==="9")   // 9 = Aguardando execução 10 = Executando
     .map(d=>({d,h:elapsedHours(d)})).filter(x=>x.h!=null)
     .sort((a,b)=>b.h-a.h).slice(0,5);
   const el=document.getElementById("execlist");
