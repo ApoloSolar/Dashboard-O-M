@@ -192,6 +192,18 @@
     <button class="clear" id="f-clear">limpar</button>
   </div>
 
+  <div class="panel" style="margin-bottom:16px">
+    <div class="pipe-head">
+      <h2>Pipeline de manutenção</h2>
+      <button class="pipe-toggle" id="toggle-done">ocultar finalizadas</button>
+    </div>
+    <p class="cap">Distribuição das ordens por estágio. Clique num estágio para filtrar.</p>
+    <div class="pipe-wrap">
+      <div id="pie"></div>
+      <div id="stagelist"></div>
+    </div>
+  </div>
+
   <div class="kpis" id="kpis"></div>
 
   <div class="panel" style="margin-top:16px">
@@ -200,62 +212,49 @@
     <div id="execlist"></div>
   </div>
 
-  <div class="grid">
-    <div class="panel">
-      <div class="pipe-head">
-        <h2>Pipeline de manutenção</h2>
-        <button class="pipe-toggle" id="toggle-done">ocultar finalizadas</button>
-      </div>
-      <p class="cap">Distribuição das ordens por estágio. Clique num estágio para filtrar.</p>
-      <div class="pipe-wrap">
-        <div id="pie"></div>
-        <div id="stagelist"></div>
-      </div>
-    </div>
+  <div class="grid even">
     <div class="panel">
       <h2>Carga por responsável</h2>
       <p class="cap">Tarefas atribuídas a cada pessoa (ou dupla).</p>
       <div id="respbars"></div>
     </div>
-  </div>
-
-  <div class="grid even">
     <div class="panel">
       <h2>Ordens por usina</h2>
       <p class="cap">Volume por planta (tags). Tarefas com várias usinas contam em cada uma.</p>
       <div id="usinabars"></div>
     </div>
+  </div>
+
+  <div class="grid even">
     <div class="panel">
       <h2>Tipo de manutenção</h2>
       <p class="cap">Corretiva, preventiva e instalação.</p>
       <div id="tipobars"></div>
     </div>
-  </div>
-
-  <div class="grid even">
     <div class="panel">
       <h2>Severidade</h2>
       <p class="cap">Do menos ao mais crítico.</p>
       <div id="sevbars"></div>
     </div>
-    <div class="panel">
-      <h2>Tempo de conclusão</h2>
-      <p class="cap">Tempo entre abertura e finalização, em faixas (só tarefas finalizadas).</p>
-      <div id="leadbars"></div>
-    </div>
   </div>
 
   <div class="grid even">
     <div class="panel">
-      <h2>Abertura de chamados</h2>
-      <p class="cap">Tarefas criadas por mês.</p>
-      <div class="trend" id="trend"></div>
+      <h2>Tempo de conclusão</h2>
+      <p class="cap">Tempo entre abertura e finalização, em faixas (só tarefas finalizadas).</p>
+      <div id="leadbars"></div>
     </div>
     <div class="panel">
       <h2>Por prioridade</h2>
       <p class="cap">Níveis 0 a 3 conforme o projeto.</p>
       <div id="priobars"></div>
     </div>
+  </div>
+
+  <div class="panel" style="margin-top:16px">
+    <h2>Abertura de chamados</h2>
+    <p class="cap">Tarefas criadas por mês.</p>
+    <div class="trend" id="trend"></div>
   </div>
 
   <div class="panel tablewrap">
