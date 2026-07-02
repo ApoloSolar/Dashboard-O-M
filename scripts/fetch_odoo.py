@@ -160,6 +160,7 @@ def buscar_tarefas(models, uid, users, tags, campos, selmaps):
                 "created_dt": t.get("create_date") or None,
                 "closed": (t["date_last_stage_update"][:10] if finalizada and t.get("date_last_stage_update") else None),
                 "closed_dt": (t.get("date_last_stage_update") if finalizada and t.get("date_last_stage_update") else None),
+                "stage_since": t.get("date_last_stage_update") or None,
                 "lead_days": lead,
             })
         offset += 200
