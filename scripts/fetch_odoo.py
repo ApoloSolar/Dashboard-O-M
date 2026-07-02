@@ -105,14 +105,17 @@ def rel_nome(v):
 def buscar_tarefas(models, uid, users, tags, campos, selmaps):
     base_fields = ["id", "name", "project_id", "stage_id", "state", "user_ids",
                    "priority", "date_deadline", "create_date",
-                   "date_last_stage_update", "tag_ids"]
+                   "date_last_stage_update", "tag_ids", "parent_id"]
     extra = [c for c in (campos["severidade"], campos["tipo"]) if c]
     fields = base_fields + extra
 
-    total = call(models, uid, "project.task", "search_count", [[]])
+    # Exclui subtarefas (parent_id preenchido) e a tarefa de ID 1, já na busca.
+    dominio = [["parent_id", "=", False], ["id", "!=", 1]]
+
+    total = call(models, uid, "project.task", "search_count", [dominio])
     tarefas, offset = [], 0
     while offset < total:
-        lote = call(models, uid, "project.task", "search_read", [[]],
+        lote = call(models, uid, "project.task", "search_read", [dominio],
                     {"fields": fields, "limit": 200, "offset": offset, "order": "id"})
         for t in lote:
             # responsáveis
