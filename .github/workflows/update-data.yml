@@ -3,7 +3,7 @@ name: Atualizar dados do Odoo
 # Quando rodar:
 on:
   schedule:
-    - cron: "0 * * * *"      # a cada hora (UTC). Ajuste o intervalo se quiser.
+    - cron: "*/30 * * * *"   # a cada 30 minutos (UTC)
   workflow_dispatch: {}       # botão para rodar manualmente na aba Actions
   push:
     branches: [ main ]        # roda também a cada push na main (útil no 1º teste)
