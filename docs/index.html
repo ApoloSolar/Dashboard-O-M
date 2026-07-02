@@ -94,9 +94,23 @@
   .panel h2::before{content:"";width:4px;height:14px;border-radius:2px;background:var(--amber);flex:none}
   .panel .cap{font-size:11.5px;color:var(--text3);margin:0 0 16px;padding-left:13px}
 
-  /* ─── PIPELINE ─── */
+  /* ─── PIPELINE (donut) ─── */
+  .pipe-wrap{display:flex;gap:22px;align-items:center;flex-wrap:wrap;margin-bottom:4px}
+  #pie{flex:none;display:flex;align-items:center;justify-content:center}
+  #pie svg text.pie-num{fill:var(--text);font-family:var(--mono);font-size:30px;font-weight:600}
+  #pie svg text.pie-lab{fill:var(--text3);font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase}
+  #pie svg circle{cursor:pointer;transition:opacity .15s} #pie svg circle:hover{opacity:.82}
+  #stagelist{flex:1;min-width:230px}
   .pipe{display:flex;height:14px;border-radius:7px;overflow:hidden;margin-bottom:18px;border:1px solid var(--border);background:var(--bg)}
   .pipe span{display:block;transition:width .5s cubic-bezier(.2,.7,.2,1)}
+  /* ─── CARD: EM EXECUÇÃO HÁ MAIS TEMPO ─── */
+  .execrow{display:flex;align-items:center;gap:14px;padding:11px 8px;border-bottom:1px solid var(--border-soft)}
+  .execrow:last-child{border-bottom:none}
+  .execrank{font-family:var(--mono);font-size:13px;color:var(--amber);width:20px;flex:none;text-align:center;font-weight:600}
+  .execmain{flex:1;min-width:0}
+  .execname{font-size:13px;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .execmeta{font-family:var(--mono);font-size:10.5px;color:var(--text3);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .exectime{font-family:var(--mono);font-weight:600;font-size:15px;color:var(--amber);flex:none;white-space:nowrap}
   .stagerow{display:flex;align-items:center;gap:10px;padding:8px 8px;border-radius:8px;cursor:pointer;transition:background .15s,outline-color .15s}
   .stagerow:hover{background:var(--bg3)} .stagerow.active{background:var(--amber-dim);outline:1px solid var(--amber-line)}
   .dot{width:11px;height:11px;border-radius:3px;flex:none}
@@ -176,12 +190,20 @@
 
   <div class="kpis" id="kpis"></div>
 
+  <div class="panel" style="margin-top:16px">
+    <h2>Em execução há mais tempo</h2>
+    <p class="cap">As 5 tarefas em "Executando" com maior tempo em aberto — da criação até a última atualização do bot.</p>
+    <div id="execlist"></div>
+  </div>
+
   <div class="grid">
     <div class="panel">
       <h2>Pipeline de manutenção</h2>
-      <p class="cap">Distribuição das ordens ao longo do fluxo. Clique num estágio para filtrar.</p>
-      <div class="pipe" id="pipe"></div>
-      <div id="stagelist"></div>
+      <p class="cap">Distribuição das ordens por estágio. Clique num estágio para filtrar.</p>
+      <div class="pipe-wrap">
+        <div id="pie"></div>
+        <div id="stagelist"></div>
+      </div>
     </div>
     <div class="panel">
       <h2>Carga por responsável</h2>
@@ -211,7 +233,7 @@
     </div>
     <div class="panel">
       <h2>Tempo de conclusão</h2>
-      <p class="cap">Dias entre abertura e finalização (só tarefas finalizadas).</p>
+      <p class="cap">Tempo entre abertura e finalização, em faixas (só tarefas finalizadas).</p>
       <div id="leadbars"></div>
     </div>
   </div>
@@ -261,6 +283,23 @@ const SEV_META={"Muito baixa":{o:1,c:"#3E9C5B"},"Baixa":{o:2,c:"#8FA36B"},"Norma
 const TIPO_COLORS={"Corretiva":"#C0632A","Preventiva":"#3E9C5B","Instalação":"#6B7A8F"};
 
 let DATA=[];
+let GENERATED=null;  // data/hora da última atualização do bot (fim da contagem p/ tarefas abertas)
+function parseDT(s){
+  if(!s)return null; let t=String(s).trim();
+  if(t.length<=10){ t=t+"T00:00:00Z"; }
+  else { t=t.replace(" ","T"); if(!/[Z+]/.test(t.slice(10))) t=t+"Z"; }
+  const d=new Date(t); return isNaN(d.getTime())?null:d;
+}
+function isFinalized(d){ return stageId(d.stage)==="12"; }
+// Tempo decorrido em horas: da criação até a finalização (se finalizada),
+// ou até a última atualização do bot (se ainda aberta).
+function elapsedHours(d){
+  const s=parseDT(d.created_dt||d.created); if(!s)return null;
+  const e = isFinalized(d) ? (parseDT(d.closed_dt||d.closed)||GENERATED) : GENERATED;
+  if(!e)return null;
+  return Math.max(0,(e-s)/3600000);
+}
+function fmtDH(h){ if(h==null)return "—"; const t=Math.round(h); const dd=Math.floor(t/24),hh=t%24; return dd>0?`${dd}d ${hh}h`:`${hh}h`; }
 function stageId(s){ if(!s||s==="—")return null; const m=String(s).match(/^(\d+)/); return m?m[1]:null; }
 function stageLabel(s){ const id=stageId(s); if(id&&STAGE_META[id])return STAGE_META[id].label; const t=String(s).split(":").slice(1).join(":").trim(); return t||s||"—"; }
 function stageColor(s){ const id=stageId(s); return (id&&STAGE_META[id]?STAGE_META[id].color:FALLBACK.color); }
@@ -319,7 +358,7 @@ function applyFilters(){
 }
 function render(){
   const rows=applyFilters();
-  renderKpis(rows);renderPipeline(rows);renderResp(rows);
+  renderKpis(rows);renderExec(rows);renderPipeline(rows);renderResp(rows);
   renderUsina(rows);renderTipo(rows);renderSev(rows);renderLead(rows);
   renderTrend(rows);renderPrio(rows);renderTable(rows);
   document.getElementById("stamp-total").textContent=DATA.length;
@@ -331,14 +370,14 @@ function renderKpis(rows){
   const aberta=total-fin-canc;
   const semPrazo=rows.filter(d=>!d.deadline).length;
   const pc=total?Math.round(fin/total*100):0;
-  const leads=rows.filter(d=>d.lead_days!=null).map(d=>d.lead_days);
-  const avg=leads.length?(leads.reduce((a,b)=>a+b,0)/leads.length):null;
+  const finE=rows.filter(isFinalized).map(elapsedHours).filter(v=>v!=null);
+  const avg=finE.length?(finE.reduce((a,b)=>a+b,0)/finE.length):null;
   const items=[
     {n:total,l:"Tarefas (filtro atual)",c:""},
     {n:fin,l:"Finalizadas",c:"good"},
     {n:aberta,l:"Em andamento",c:"accent"},
     {n:pc+"%",l:"Taxa de conclusão",c:""},
-    {n:avg!=null?avg.toFixed(1).replace(".",",")+"d":"—",l:"Tempo médio de conclusão",c:"petrol"},
+    {n:fmtDH(avg),l:"Tempo médio de conclusão",c:"petrol"},
     {n:semPrazo,l:"Sem prazo definido",c:"warn"}];
   document.getElementById("kpis").innerHTML=items.map(k=>`<div class="kpi ${k.c}"><div class="n">${k.n}</div><div class="l">${k.l}</div></div>`).join("");
 }
@@ -349,11 +388,43 @@ function hbars(elId,arr,colorFn){
      <span class="btrack"><span class="bfill" style="width:${c/max*100}%;background:${colorFn(k)}"></span></span>
      <span class="bct">${c}</span></div>`).join(""):`<div class="empty">Sem dados</div>`;
 }
+function renderExec(rows){
+  const arr=rows.filter(d=>stageId(d.stage)==="10")   // 10 = EXECUTANDO
+    .map(d=>({d,h:elapsedHours(d)})).filter(x=>x.h!=null)
+    .sort((a,b)=>b.h-a.h).slice(0,5);
+  const el=document.getElementById("execlist");
+  if(!arr.length){el.innerHTML=`<div class="empty">Nenhuma tarefa em execução no filtro atual</div>`;return;}
+  el.innerHTML=arr.map((x,i)=>{
+    const us=(x.d.usinas&&x.d.usinas.length)?x.d.usinas.join(", "):"—";
+    return `<div class="execrow">
+      <span class="execrank">${i+1}</span>
+      <div class="execmain">
+        <div class="execname">${escapeHtml(x.d.name)}</div>
+        <div class="execmeta">#${x.d.id} · ${escapeHtml(us)} · ${escapeHtml(x.d.resp)}</div>
+      </div>
+      <span class="exectime">${fmtDH(x.h)}</span>
+    </div>`;}).join("");
+}
 function renderPipeline(rows){
   const stages=uniq(DATA.map(d=>d.stage)).filter(s=>s&&s!=="—").sort((a,b)=>stageOrder(a)-stageOrder(b));
   const total=rows.length||1;
   const counts=stages.map(s=>({s,c:rows.filter(d=>d.stage===s).length}));
-  document.getElementById("pipe").innerHTML=counts.map(x=>x.c?`<span style="width:${x.c/total*100}%;background:${stageColor(x.s)}" title="${stageLabel(x.s)}: ${x.c}"></span>`:"").join("");
+  // donut (pizza) em SVG
+  const cx=90,cy=90,r=68,sw=26,circ=2*Math.PI*r;
+  let off=0;
+  const segs=counts.filter(x=>x.c>0).map(x=>{
+    const dash=(x.c/total)*circ;
+    const s=`<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${stageColor(x.s)}" stroke-width="${sw}" stroke-dasharray="${dash.toFixed(2)} ${(circ-dash).toFixed(2)}" stroke-dashoffset="${(-off).toFixed(2)}" transform="rotate(-90 ${cx} ${cy})" data-stage="${x.s.replace(/"/g,'&quot;')}"><title>${stageLabel(x.s)}: ${x.c} (${Math.round(x.c/total*100)}%)</title></circle>`;
+    off+=dash; return s;
+  }).join("");
+  const semDados=counts.every(x=>x.c===0);
+  document.getElementById("pie").innerHTML=semDados?`<div class="empty">Sem dados</div>`:
+    `<svg viewBox="0 0 180 180" width="176" height="176">${segs}
+      <text x="90" y="86" text-anchor="middle" class="pie-num">${rows.length}</text>
+      <text x="90" y="106" text-anchor="middle" class="pie-lab">tarefas</text></svg>`;
+  document.querySelectorAll("#pie circle").forEach(c=>c.onclick=()=>{
+    const s=c.getAttribute("data-stage");F.stage=(F.stage===s)?"":s;
+    document.getElementById("f-stage").value=F.stage;render();});
   document.getElementById("stagelist").innerHTML=counts.map(x=>{
     const active=F.stage===x.s?"active":"";
     return `<div class="stagerow ${active}" data-stage="${x.s.replace(/"/g,'&quot;')}">
@@ -383,10 +454,10 @@ function renderSev(rows){
 }
 function renderLead(rows){
   const buckets=[["≤ 7 dias",d=>d<=7],["8 a 30 dias",d=>d>7&&d<=30],["31 a 60 dias",d=>d>30&&d<=60],["> 60 dias",d=>d>60]];
-  const leads=rows.filter(d=>d.lead_days!=null).map(d=>d.lead_days);
-  const arr=buckets.map(([lab,fn])=>[lab,leads.filter(fn).length]);
-  const cols={"≤ 7 dias":"#3E9C5B","8 a 30 dias":"#8FA36B","31 a 60 dias":"#C6852A","> 60 dias":"#C0632A"};
-  if(!leads.length){document.getElementById("leadbars").innerHTML=`<div class="empty">Nenhuma tarefa finalizada no filtro</div>`;return;}
+  const days=rows.filter(isFinalized).map(d=>{const h=elapsedHours(d);return h==null?null:h/24;}).filter(v=>v!=null);
+  const arr=buckets.map(([lab,fn])=>[lab,days.filter(fn).length]);
+  const cols={"≤ 7 dias":"#3fb950","8 a 30 dias":"#8FA36B","31 a 60 dias":"#C6852A","> 60 dias":"#C0632A"};
+  if(!days.length){document.getElementById("leadbars").innerHTML=`<div class="empty">Nenhuma tarefa finalizada no filtro</div>`;return;}
   hbars("leadbars",arr,k=>cols[k]||"#999");
 }
 function renderPrio(rows){
@@ -418,7 +489,7 @@ function renderTable(rows){
       <td>${usina}</td><td>${escapeHtml(d.tipo)}</td><td>${sev}</td>
       <td><span class="tag"><span class="dot" style="background:${stageColor(d.stage)}"></span>${stageLabel(d.stage)}</span></td>
       <td>${escapeHtml(d.resp)}</td><td><span class="pill">${prioLabel(d.priority)}</span></td>
-      <td class="nowrap">${fmtDate(d.deadline)}</td><td class="nowrap lead">${fmtLead(d.lead_days)}</td>
+      <td class="nowrap">${fmtDate(d.deadline)}</td><td class="nowrap lead">${fmtDH(elapsedHours(d))}</td>
     </tr>`;}).join("");
 }
 
@@ -430,6 +501,7 @@ fetch("data.json?_="+Date.now())
     if(!DATA.length){showError("O arquivo <code>data.json</code> não tem tarefas ainda.<br>Rode o workflow na aba <b>Actions</b> do GitHub.");return;}
     document.getElementById("loading").style.display="none";
     document.getElementById("app").style.display="block";
+    GENERATED = j.generated_at ? new Date(j.generated_at) : new Date();
     if(j.generated_at){const dt=new Date(j.generated_at);
       document.getElementById("stamp-date").textContent=dt.toLocaleString("pt-BR",{day:"2-digit",month:"2-digit",year:"numeric",hour:"2-digit",minute:"2-digit"});}
     initFilters();render();
