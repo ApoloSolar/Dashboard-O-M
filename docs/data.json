@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-02T09:51:32+00:00",
- "count": 176,
+ "generated_at": "2026-07-02T11:50:44+00:00",
+ "count": 177,
  "tasks": [
   {
    "id": 1,
@@ -1937,6 +1937,17 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-07-01"
+  },
+  {
+   "id": 385,
+   "name": "Inversores WEG defeituosos",
+   "project": "MANUTENÇÃO",
+   "stage": "9: AGUARDANDO EXECUÇÃO",
+   "state": "01_in_progress",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "priority": 2,
+   "deadline": null,
+   "created": "2026-07-02"
   }
  ]
 }
