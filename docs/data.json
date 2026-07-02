@@ -1,26 +1,7 @@
 {
- "generated_at": "2026-07-02T14:03:09+00:00",
- "count": 177,
+ "generated_at": "2026-07-02T14:28:23+00:00",
+ "count": 169,
  "tasks": [
-  {
-   "id": 1,
-   "name": "Welcome Administrator!",
-   "project": "—",
-   "stage": "—",
-   "state": "1_done",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [],
-   "severidade": "—",
-   "tipo": "—",
-   "priority": 0,
-   "deadline": null,
-   "created": "2026-01-19",
-   "created_dt": "2026-01-19 17:35:07",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-01-30 12:01:00",
-   "lead_days": null
-  },
   {
    "id": 6,
    "name": "Fazer placa de contato",
@@ -162,90 +143,6 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-01-26 18:34:12",
-   "lead_days": null
-  },
-  {
-   "id": 13,
-   "name": "Verificar integridade dos cabos CC",
-   "project": "MANUTENÇÃO",
-   "stage": "8: NOVAS SOLICITAÇÕES",
-   "state": "1_done",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Apolo II - PK"
-   ],
-   "severidade": "—",
-   "tipo": "—",
-   "priority": 0,
-   "deadline": null,
-   "created": "2026-01-26",
-   "created_dt": "2026-01-26 20:04:35",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-05-24 19:57:04",
-   "lead_days": null
-  },
-  {
-   "id": 14,
-   "name": "Medir correntes com multímetro",
-   "project": "MANUTENÇÃO",
-   "stage": "8: NOVAS SOLICITAÇÕES",
-   "state": "1_done",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Apolo II - PK"
-   ],
-   "severidade": "—",
-   "tipo": "—",
-   "priority": 0,
-   "deadline": null,
-   "created": "2026-01-26",
-   "created_dt": "2026-01-26 20:04:35",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-05-24 19:57:07",
-   "lead_days": null
-  },
-  {
-   "id": 15,
-   "name": "Realizar termografia",
-   "project": "MANUTENÇÃO",
-   "stage": "8: NOVAS SOLICITAÇÕES",
-   "state": "1_done",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Apolo II - PK"
-   ],
-   "severidade": "—",
-   "tipo": "—",
-   "priority": 0,
-   "deadline": null,
-   "created": "2026-01-26",
-   "created_dt": "2026-01-26 20:04:35",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-05-24 19:57:09",
-   "lead_days": null
-  },
-  {
-   "id": 16,
-   "name": "Colocar em pleno funcionamento o equipamento",
-   "project": "MANUTENÇÃO",
-   "stage": "8: NOVAS SOLICITAÇÕES",
-   "state": "1_done",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Apolo II - PK"
-   ],
-   "severidade": "—",
-   "tipo": "—",
-   "priority": 0,
-   "deadline": null,
-   "created": "2026-01-26",
-   "created_dt": "2026-01-26 20:04:35",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-05-24 19:57:11",
    "lead_days": null
   },
   {
@@ -393,27 +290,6 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 17:10:20",
-   "lead_days": null
-  },
-  {
-   "id": 27,
-   "name": "Conseguir o frete para levar os módulos da Sol Nascente para Linhares para executarmos o serviço.",
-   "project": "MANUTENÇÃO",
-   "stage": "8: NOVAS SOLICITAÇÕES",
-   "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
-   "severidade": "Alta",
-   "tipo": "—",
-   "priority": 0,
-   "deadline": null,
-   "created": "2026-02-25",
-   "created_dt": "2026-02-25 20:24:01",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-02-25 20:24:01",
    "lead_days": null
   },
   {
@@ -834,48 +710,6 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 16:47:08",
-   "lead_days": null
-  },
-  {
-   "id": 48,
-   "name": "subtarefa 1",
-   "project": "MANUTENÇÃO",
-   "stage": "8: NOVAS SOLICITAÇÕES",
-   "state": "1_done",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
-   "severidade": "—",
-   "tipo": "—",
-   "priority": 0,
-   "deadline": null,
-   "created": "2026-03-24",
-   "created_dt": "2026-03-24 12:05:19",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-03-24 13:41:21",
-   "lead_days": null
-  },
-  {
-   "id": 49,
-   "name": "subtarefa 2",
-   "project": "MANUTENÇÃO",
-   "stage": "8: NOVAS SOLICITAÇÕES",
-   "state": "1_canceled",
-   "resp": "LEONARDO DE CASTRO FERREIRA + TERRA CONSTRUÇÕES",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
-   "severidade": "—",
-   "tipo": "—",
-   "priority": 0,
-   "deadline": null,
-   "created": "2026-03-24",
-   "created_dt": "2026-03-24 12:05:19",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-03-24 13:41:21",
    "lead_days": null
   },
   {
