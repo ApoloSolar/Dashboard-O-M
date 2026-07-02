@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-02T12:17:26+00:00",
+ "generated_at": "2026-07-02T13:05:57+00:00",
  "count": 177,
  "tasks": [
   {
@@ -15,7 +15,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-01-19",
+   "created_dt": "2026-01-19 17:35:07",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -33,7 +35,9 @@
    "priority": 0,
    "deadline": "2026-01-15",
    "created": "2026-01-20",
+   "created_dt": "2026-01-20 14:14:19",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 70.1
   },
   {
@@ -51,7 +55,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-01-20",
+   "created_dt": "2026-01-20 14:14:42",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 70.1
   },
   {
@@ -69,7 +75,9 @@
    "priority": 3,
    "deadline": "2026-03-05",
    "created": "2026-01-20",
+   "created_dt": "2026-01-20 14:21:35",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -87,7 +95,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-01-20",
+   "created_dt": "2026-01-20 14:22:05",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:30:40",
    "lead_days": 70.1
   },
   {
@@ -105,7 +115,9 @@
    "priority": 2,
    "deadline": "2026-01-30",
    "created": "2026-01-26",
+   "created_dt": "2026-01-26 18:31:58",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 64.0
   },
   {
@@ -121,7 +133,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-01-26",
+   "created_dt": "2026-01-26 18:34:11",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -137,7 +151,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-01-26",
+   "created_dt": "2026-01-26 18:34:11",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -155,7 +171,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-01-26",
+   "created_dt": "2026-01-26 20:04:35",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -173,7 +191,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-01-26",
+   "created_dt": "2026-01-26 20:04:35",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -191,7 +211,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-01-26",
+   "created_dt": "2026-01-26 20:04:35",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -209,7 +231,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-01-26",
+   "created_dt": "2026-01-26 20:04:35",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -227,7 +251,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-02-13",
+   "created_dt": "2026-02-13 20:13:20",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -245,7 +271,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-02-13",
+   "created_dt": "2026-02-13 20:15:44",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:03",
    "lead_days": 45.9
   },
   {
@@ -263,7 +291,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-02-13",
+   "created_dt": "2026-02-13 20:16:33",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:03",
    "lead_days": 45.9
   },
   {
@@ -281,7 +311,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-02-13",
+   "created_dt": "2026-02-13 20:23:01",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -299,7 +331,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-02-13",
+   "created_dt": "2026-02-13 20:24:58",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -317,7 +351,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-02-13",
+   "created_dt": "2026-02-13 20:26:02",
    "closed": "2026-06-30",
+   "closed_dt": "2026-06-30 14:22:03",
    "lead_days": 136.7
   },
   {
@@ -335,7 +371,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-02-13",
+   "created_dt": "2026-02-13 20:27:31",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -353,7 +391,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-02-25",
+   "created_dt": "2026-02-25 20:24:01",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -371,7 +411,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-03-02",
+   "created_dt": "2026-03-02 09:50:46",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 29.3
   },
   {
@@ -389,7 +431,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-03-02",
+   "created_dt": "2026-03-02 09:54:26",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:30:44",
    "lead_days": 29.3
   },
   {
@@ -407,7 +451,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-03-02",
+   "created_dt": "2026-03-02 16:26:57",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -425,7 +471,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-03-05",
+   "created_dt": "2026-03-05 19:39:03",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -443,7 +491,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-03-05",
+   "created_dt": "2026-03-05 21:03:34",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:03",
    "lead_days": 25.8
   },
   {
@@ -461,7 +511,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-03-05",
+   "created_dt": "2026-03-05 21:05:44",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -479,7 +531,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-03-05",
+   "created_dt": "2026-03-05 21:22:58",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -497,7 +551,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-03-05",
+   "created_dt": "2026-03-05 21:27:13",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 25.8
   },
   {
@@ -515,7 +571,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-03-05",
+   "created_dt": "2026-03-05 21:31:51",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -533,7 +591,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-03-06",
+   "created_dt": "2026-03-06 19:15:48",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 24.9
   },
   {
@@ -551,7 +611,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-03-06",
+   "created_dt": "2026-03-06 19:17:44",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 24.9
   },
   {
@@ -569,7 +631,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-03-06",
+   "created_dt": "2026-03-06 23:42:58",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 24.7
   },
   {
@@ -587,7 +651,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-03-10",
+   "created_dt": "2026-03-10 12:12:06",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 21.2
   },
   {
@@ -605,7 +671,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-03-17",
+   "created_dt": "2026-03-17 13:03:59",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -623,7 +691,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-03-23",
+   "created_dt": "2026-03-23 13:52:51",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -641,7 +711,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-03-23",
+   "created_dt": "2026-03-23 14:42:29",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -659,7 +731,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-03-23",
+   "created_dt": "2026-03-23 14:42:41",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -677,7 +751,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-03-23",
+   "created_dt": "2026-03-23 16:27:31",
    "closed": "2026-06-09",
+   "closed_dt": "2026-06-09 16:19:53",
    "lead_days": 78.0
   },
   {
@@ -695,7 +771,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-03-23",
+   "created_dt": "2026-03-23 16:34:15",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -713,7 +791,9 @@
    "priority": 3,
    "deadline": "2026-03-31",
    "created": "2026-03-23",
+   "created_dt": "2026-03-23 18:17:22",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -731,7 +811,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 12:05:19",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -749,7 +831,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 12:05:19",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -767,7 +851,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 18:31:44",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 7.0
   },
   {
@@ -785,7 +871,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 18:31:44",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 7.0
   },
   {
@@ -803,7 +891,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 18:38:16",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -821,7 +911,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 18:38:16",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -839,7 +931,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 18:38:16",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -857,7 +951,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 18:56:04",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -875,7 +971,9 @@
    "priority": 1,
    "deadline": "2025-11-27",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 18:58:02",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -893,7 +991,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -911,7 +1011,9 @@
    "priority": 1,
    "deadline": "2025-11-27",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -929,7 +1031,9 @@
    "priority": 1,
    "deadline": "2025-11-27",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -947,7 +1051,9 @@
    "priority": 1,
    "deadline": "2025-11-27",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -965,7 +1071,9 @@
    "priority": 1,
    "deadline": "2025-11-27",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -983,7 +1091,9 @@
    "priority": 1,
    "deadline": "2025-11-27",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1001,7 +1111,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -1019,7 +1131,9 @@
    "priority": 1,
    "deadline": "2025-11-26",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1037,7 +1151,9 @@
    "priority": 1,
    "deadline": "2025-11-27",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1055,7 +1171,9 @@
    "priority": 1,
    "deadline": "2025-11-27",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1073,7 +1191,9 @@
    "priority": 1,
    "deadline": "2025-12-04",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1091,7 +1211,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1109,7 +1231,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1127,7 +1251,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1145,7 +1271,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1163,7 +1291,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1181,7 +1311,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1199,7 +1331,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1217,7 +1351,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1235,7 +1371,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1253,7 +1391,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1271,7 +1411,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1289,7 +1431,9 @@
    "priority": 1,
    "deadline": "2026-02-07",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1307,7 +1451,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1325,7 +1471,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1343,7 +1491,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1361,7 +1511,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1379,7 +1531,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1397,7 +1551,9 @@
    "priority": 1,
    "deadline": "2025-12-22",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1415,7 +1571,9 @@
    "priority": 1,
    "deadline": "2026-01-26",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1433,7 +1591,9 @@
    "priority": 1,
    "deadline": "2025-12-30",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1451,7 +1611,9 @@
    "priority": 1,
    "deadline": "2025-12-30",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1469,7 +1631,9 @@
    "priority": 1,
    "deadline": "2025-12-30",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1487,7 +1651,9 @@
    "priority": 1,
    "deadline": "2025-12-30",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1505,7 +1671,9 @@
    "priority": 1,
    "deadline": "2025-12-30",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1523,7 +1691,9 @@
    "priority": 1,
    "deadline": "2025-12-30",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1541,7 +1711,9 @@
    "priority": 1,
    "deadline": "2026-01-07",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1559,7 +1731,9 @@
    "priority": 1,
    "deadline": "2026-01-21",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1577,7 +1751,9 @@
    "priority": 1,
    "deadline": "2026-01-21",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1595,7 +1771,9 @@
    "priority": 1,
    "deadline": "2026-01-21",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1613,7 +1791,9 @@
    "priority": 1,
    "deadline": "2026-01-21",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1631,7 +1811,9 @@
    "priority": 1,
    "deadline": "2026-01-21",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1649,7 +1831,9 @@
    "priority": 1,
    "deadline": "2026-01-24",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1667,7 +1851,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -1685,7 +1871,9 @@
    "priority": 1,
    "deadline": "2026-01-26",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1703,7 +1891,9 @@
    "priority": 1,
    "deadline": "2026-02-07",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1721,7 +1911,9 @@
    "priority": 1,
    "deadline": "2026-02-07",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1739,7 +1931,9 @@
    "priority": 1,
    "deadline": "2026-02-07",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1757,7 +1951,9 @@
    "priority": 1,
    "deadline": "2026-02-25",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1775,7 +1971,9 @@
    "priority": 1,
    "deadline": "2026-02-07",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1793,7 +1991,9 @@
    "priority": 1,
    "deadline": "2026-02-05",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1811,7 +2011,9 @@
    "priority": 1,
    "deadline": "2026-02-05",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1829,7 +2031,9 @@
    "priority": 1,
    "deadline": "2026-02-10",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1847,7 +2051,9 @@
    "priority": 1,
    "deadline": "2026-02-12",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1865,7 +2071,9 @@
    "priority": 1,
    "deadline": "2026-02-16",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -1883,7 +2091,9 @@
    "priority": 1,
    "deadline": "2026-02-25",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1901,7 +2111,9 @@
    "priority": 1,
    "deadline": "2026-02-24",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1919,7 +2131,9 @@
    "priority": 1,
    "deadline": "2026-02-24",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1937,7 +2151,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -1955,7 +2171,9 @@
    "priority": 1,
    "deadline": "2026-02-24",
    "created": "2026-03-24",
+   "created_dt": "2026-03-24 19:06:43",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:23:04",
    "lead_days": 6.9
   },
   {
@@ -1973,7 +2191,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-03-25",
+   "created_dt": "2026-03-25 16:14:11",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -1991,7 +2211,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-03-25",
+   "created_dt": "2026-03-25 17:41:55",
    "closed": "2026-03-31",
+   "closed_dt": "2026-03-31 17:30:42",
    "lead_days": 6.0
   },
   {
@@ -2009,7 +2231,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-03-25",
+   "created_dt": "2026-03-25 17:53:42",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2027,7 +2251,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-03-26",
+   "created_dt": "2026-03-26 18:36:11",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2045,7 +2271,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-03-31",
+   "created_dt": "2026-03-31 17:12:11",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2063,7 +2291,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-04-01",
+   "created_dt": "2026-04-01 13:42:41",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2081,7 +2311,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-04-01",
+   "created_dt": "2026-04-01 19:57:23",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2099,7 +2331,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-04-07",
+   "created_dt": "2026-04-07 17:33:49",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2120,7 +2354,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-04-28",
+   "created_dt": "2026-04-28 13:09:54",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2138,7 +2374,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-05-06",
+   "created_dt": "2026-05-06 13:25:41",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2156,7 +2394,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-05-06",
+   "created_dt": "2026-05-06 15:18:56",
    "closed": "2026-05-19",
+   "closed_dt": "2026-05-19 12:27:54",
    "lead_days": 12.9
   },
   {
@@ -2174,7 +2414,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-05-06",
+   "created_dt": "2026-05-06 18:09:28",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2192,7 +2434,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 15:20:32",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2210,7 +2454,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 15:25:16",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2228,7 +2474,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 15:50:30",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2246,7 +2494,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 16:52:59",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2264,7 +2514,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 17:01:49",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2282,7 +2534,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 17:20:44",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2300,7 +2554,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 17:36:31",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2318,7 +2574,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 17:40:10",
    "closed": "2026-05-19",
+   "closed_dt": "2026-05-19 12:29:20",
    "lead_days": 10.8
   },
   {
@@ -2336,7 +2594,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 17:45:28",
    "closed": "2026-06-09",
+   "closed_dt": "2026-06-09 16:14:51",
    "lead_days": 31.9
   },
   {
@@ -2354,7 +2614,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 17:47:41",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2372,7 +2634,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 18:00:44",
    "closed": "2026-05-28",
+   "closed_dt": "2026-05-28 14:32:01",
    "lead_days": 19.9
   },
   {
@@ -2390,7 +2654,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 18:29:30",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2408,7 +2674,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 18:46:09",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2426,7 +2694,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 18:50:39",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2447,7 +2717,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 19:07:08",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2465,7 +2737,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 19:35:59",
    "closed": "2026-05-19",
+   "closed_dt": "2026-05-19 17:22:58",
    "lead_days": 10.9
   },
   {
@@ -2483,7 +2757,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-05-08",
+   "created_dt": "2026-05-08 19:37:33",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2501,7 +2777,9 @@
    "priority": 3,
    "deadline": "2026-05-14",
    "created": "2026-05-13",
+   "created_dt": "2026-05-13 16:35:15",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2519,7 +2797,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-05-14",
+   "created_dt": "2026-05-14 13:56:22",
    "closed": "2026-05-25",
+   "closed_dt": "2026-05-25 11:39:00",
    "lead_days": 10.9
   },
   {
@@ -2537,7 +2817,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-05-18",
+   "created_dt": "2026-05-18 15:25:34",
    "closed": "2026-06-09",
+   "closed_dt": "2026-06-09 16:18:51",
    "lead_days": 22.0
   },
   {
@@ -2555,7 +2837,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-05-18",
+   "created_dt": "2026-05-18 16:10:24",
    "closed": "2026-05-28",
+   "closed_dt": "2026-05-28 13:42:23",
    "lead_days": 9.9
   },
   {
@@ -2573,7 +2857,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-05-18",
+   "created_dt": "2026-05-18 16:20:39",
    "closed": "2026-05-28",
+   "closed_dt": "2026-05-28 17:41:59",
    "lead_days": 10.1
   },
   {
@@ -2591,7 +2877,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-05-18",
+   "created_dt": "2026-05-18 16:32:48",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2609,7 +2897,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-05-18",
+   "created_dt": "2026-05-18 17:10:51",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2627,7 +2917,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-05-18",
+   "created_dt": "2026-05-18 19:02:15",
    "closed": "2026-05-28",
+   "closed_dt": "2026-05-28 13:40:47",
    "lead_days": 9.8
   },
   {
@@ -2645,7 +2937,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-05-19",
+   "created_dt": "2026-05-19 14:33:53",
    "closed": "2026-05-19",
+   "closed_dt": "2026-05-19 17:23:28",
    "lead_days": 0.1
   },
   {
@@ -2663,7 +2957,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-05-21",
+   "created_dt": "2026-05-21 11:01:52",
    "closed": "2026-05-25",
+   "closed_dt": "2026-05-25 14:13:46",
    "lead_days": 4.1
   },
   {
@@ -2681,7 +2977,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-05-21",
+   "created_dt": "2026-05-21 11:11:55",
    "closed": "2026-05-28",
+   "closed_dt": "2026-05-28 13:37:04",
    "lead_days": 7.1
   },
   {
@@ -2699,7 +2997,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-05-21",
+   "created_dt": "2026-05-21 11:18:40",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2717,7 +3017,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-05-22",
+   "created_dt": "2026-05-22 17:31:32",
    "closed": "2026-05-27",
+   "closed_dt": "2026-05-27 13:37:03",
    "lead_days": 4.8
   },
   {
@@ -2735,7 +3037,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-05-22",
+   "created_dt": "2026-05-22 17:51:48",
    "closed": "2026-05-25",
+   "closed_dt": "2026-05-25 14:11:45",
    "lead_days": 2.8
   },
   {
@@ -2753,7 +3057,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-05-22",
+   "created_dt": "2026-05-22 17:57:27",
    "closed": "2026-06-09",
+   "closed_dt": "2026-06-09 16:14:13",
    "lead_days": 17.9
   },
   {
@@ -2771,7 +3077,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-05-22",
+   "created_dt": "2026-05-22 18:00:04",
    "closed": "2026-05-26",
+   "closed_dt": "2026-05-26 19:11:58",
    "lead_days": 4.0
   },
   {
@@ -2789,7 +3097,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-05-22",
+   "created_dt": "2026-05-22 18:03:47",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2807,7 +3117,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-05-22",
+   "created_dt": "2026-05-22 18:23:06",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2825,7 +3137,9 @@
    "priority": 0,
    "deadline": "2026-05-24",
    "created": "2026-05-24",
+   "created_dt": "2026-05-24 20:37:13",
    "closed": "2026-05-25",
+   "closed_dt": "2026-05-25 14:13:41",
    "lead_days": 0.7
   },
   {
@@ -2843,7 +3157,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-05-27",
+   "created_dt": "2026-05-27 12:15:38",
    "closed": "2026-06-08",
+   "closed_dt": "2026-06-08 11:09:41",
    "lead_days": 12.0
   },
   {
@@ -2861,7 +3177,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-05-28",
+   "created_dt": "2026-05-28 20:41:53",
    "closed": "2026-06-03",
+   "closed_dt": "2026-06-03 18:39:49",
    "lead_days": 5.9
   },
   {
@@ -2879,7 +3197,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-05-29",
+   "created_dt": "2026-05-29 13:06:28",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2897,7 +3217,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-05-29",
+   "created_dt": "2026-05-29 13:34:57",
    "closed": "2026-06-09",
+   "closed_dt": "2026-06-09 15:16:15",
    "lead_days": 11.1
   },
   {
@@ -2915,7 +3237,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-05-29",
+   "created_dt": "2026-05-29 14:44:43",
    "closed": "2026-06-09",
+   "closed_dt": "2026-06-09 15:17:18",
    "lead_days": 11.0
   },
   {
@@ -2936,7 +3260,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-05-29",
+   "created_dt": "2026-05-29 14:52:12",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2954,7 +3280,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-06-05",
+   "created_dt": "2026-06-05 13:28:57",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2975,7 +3303,9 @@
    "priority": 3,
    "deadline": "2026-06-12",
    "created": "2026-06-08",
+   "created_dt": "2026-06-08 14:24:55",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -2991,7 +3321,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-06-09",
+   "created_dt": "2026-06-09 14:48:50",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -3009,7 +3341,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-06-09",
+   "created_dt": "2026-06-09 14:52:24",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -3027,7 +3361,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-06-09",
+   "created_dt": "2026-06-09 17:06:11",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -3045,7 +3381,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-06-15",
+   "created_dt": "2026-06-15 13:49:14",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -3063,7 +3401,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-06-19",
+   "created_dt": "2026-06-19 13:34:47",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -3081,7 +3421,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-06-19",
+   "created_dt": "2026-06-19 14:09:25",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -3099,7 +3441,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-06-23",
+   "created_dt": "2026-06-23 17:50:00",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -3117,7 +3461,9 @@
    "priority": 0,
    "deadline": null,
    "created": "2026-06-23",
+   "created_dt": "2026-06-23 17:55:13",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -3138,7 +3484,9 @@
    "priority": 1,
    "deadline": null,
    "created": "2026-06-24",
+   "created_dt": "2026-06-24 19:23:56",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -3156,7 +3504,9 @@
    "priority": 3,
    "deadline": null,
    "created": "2026-06-30",
+   "created_dt": "2026-06-30 13:43:51",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -3174,7 +3524,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-07-01",
+   "created_dt": "2026-07-01 13:20:08",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   },
   {
@@ -3192,7 +3544,9 @@
    "priority": 2,
    "deadline": null,
    "created": "2026-07-02",
+   "created_dt": "2026-07-02 11:22:54",
    "closed": null,
+   "closed_dt": null,
    "lead_days": null
   }
  ]
