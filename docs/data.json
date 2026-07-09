@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-09T17:59:37+00:00",
- "count": 168,
+ "generated_at": "2026-07-09T19:58:54+00:00",
+ "count": 169,
  "tasks": [
   {
    "id": 6,
@@ -3537,6 +3537,27 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-07-01 13:20:13",
+   "lead_days": null
+  },
+  {
+   "id": 387,
+   "name": "Verificar ligação de strings no INversor SN final 008",
+   "project": "MANUTENÇÃO",
+   "stage": "8: NOVAS SOLICITAÇÕES",
+   "state": "01_in_progress",
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo II - PK"
+   ],
+   "severidade": "Alta",
+   "tipo": "Corretiva",
+   "priority": 3,
+   "deadline": null,
+   "created": "2026-07-09",
+   "created_dt": "2026-07-09 18:00:55",
+   "closed": null,
+   "closed_dt": null,
+   "stage_since": "2026-07-09 18:00:55",
    "lead_days": null
   }
  ]
