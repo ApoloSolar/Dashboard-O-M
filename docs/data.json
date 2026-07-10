@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-10T09:36:44+00:00",
+ "generated_at": "2026-07-10T12:25:46+00:00",
  "count": 169,
  "tasks": [
   {
@@ -3393,7 +3393,7 @@
    "id": 378,
    "name": "Ninhos de marimbondo",
    "project": "MANUTENÇÃO",
-   "stage": "9: AGUARDANDO EXECUÇÃO",
+   "stage": "11: EM APROVAÇÃO",
    "state": "01_in_progress",
    "resp": "TERRA CONSTRUÇÕES",
    "usinas": [
@@ -3407,7 +3407,7 @@
    "created_dt": "2026-06-19 13:34:47",
    "closed": null,
    "closed_dt": null,
-   "stage_since": "2026-06-22 14:11:21",
+   "stage_since": "2026-07-10 10:44:09",
    "lead_days": null
   },
   {
@@ -3522,7 +3522,7 @@
    "id": 384,
    "name": "Tampar caixa d´água de Linhares",
    "project": "MANUTENÇÃO",
-   "stage": "9: AGUARDANDO EXECUÇÃO",
+   "stage": "11: EM APROVAÇÃO",
    "state": "01_in_progress",
    "resp": "TERRA CONSTRUÇÕES",
    "usinas": [
@@ -3536,7 +3536,7 @@
    "created_dt": "2026-07-01 13:20:08",
    "closed": null,
    "closed_dt": null,
-   "stage_since": "2026-07-01 13:20:13",
+   "stage_since": "2026-07-10 10:42:44",
    "lead_days": null
   },
   {
