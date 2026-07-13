@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-13T09:54:30+00:00",
+ "generated_at": "2026-07-13T12:32:14+00:00",
  "count": 169,
  "tasks": [
   {
@@ -3393,7 +3393,7 @@
    "id": 378,
    "name": "Ninhos de marimbondo",
    "project": "MANUTENÇÃO",
-   "stage": "11: EM APROVAÇÃO",
+   "stage": "12: FINALIZADO",
    "state": "01_in_progress",
    "resp": "TERRA CONSTRUÇÕES",
    "usinas": [
@@ -3405,10 +3405,10 @@
    "deadline": null,
    "created": "2026-06-19",
    "created_dt": "2026-06-19 13:34:47",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-07-10 10:44:09",
-   "lead_days": null
+   "closed": "2026-07-13",
+   "closed_dt": "2026-07-13 12:09:44",
+   "stage_since": "2026-07-13 12:09:44",
+   "lead_days": 23.9
   },
   {
    "id": 379,
