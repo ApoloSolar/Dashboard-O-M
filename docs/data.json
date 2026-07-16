@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-16T13:52:21+00:00",
+ "generated_at": "2026-07-16T14:12:23+00:00",
  "count": 169,
  "tasks": [
   {
@@ -8,10 +8,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 0,
@@ -21,7 +17,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 70.1
+   "lead_days": 70.1,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 7,
@@ -29,10 +29,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 2,
@@ -42,7 +38,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 70.1
+   "lead_days": 70.1,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 8,
@@ -50,10 +50,6 @@
    "project": "MANUTENÇÃO",
    "stage": "11: EM APROVAÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Alta",
    "tipo": "Instalação",
    "priority": 3,
@@ -63,7 +59,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-03-31 17:23:03",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 9,
@@ -71,10 +71,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 3,
@@ -84,7 +80,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:30:40",
    "stage_since": "2026-03-31 17:30:40",
-   "lead_days": 70.1
+   "lead_days": 70.1,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 10,
@@ -92,10 +92,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Preventiva",
    "priority": 2,
@@ -105,7 +101,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 64.0
+   "lead_days": 64.0,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 11,
@@ -113,8 +113,6 @@
    "project": "Interno",
    "stage": "13: Internal",
    "state": "01_in_progress",
-   "resp": "ID 1",
-   "usinas": [],
    "severidade": "—",
    "tipo": "—",
    "priority": 0,
@@ -124,7 +122,9 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-01-26 18:34:12",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "OdooBot",
+   "usinas": []
   },
   {
    "id": 12,
@@ -132,8 +132,6 @@
    "project": "Interno",
    "stage": "13: Internal",
    "state": "01_in_progress",
-   "resp": "ID 1",
-   "usinas": [],
    "severidade": "—",
    "tipo": "—",
    "priority": 0,
@@ -143,7 +141,9 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-01-26 18:34:12",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "OdooBot",
+   "usinas": []
   },
   {
    "id": 20,
@@ -151,10 +151,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Baixa",
    "tipo": "Preventiva",
    "priority": 1,
@@ -164,7 +160,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 21,
@@ -172,10 +172,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 3,
@@ -185,7 +181,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:03",
    "stage_since": "2026-03-31 17:23:03",
-   "lead_days": 45.9
+   "lead_days": 45.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 22,
@@ -193,10 +193,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Rio Sol"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 2,
@@ -206,7 +202,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:03",
    "stage_since": "2026-03-31 17:23:03",
-   "lead_days": 45.9
+   "lead_days": 45.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Rio Sol"
+   ]
   },
   {
    "id": 23,
@@ -214,10 +214,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 2,
@@ -227,7 +223,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-04-11 06:31:14",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 24,
@@ -235,10 +235,6 @@
    "project": "MANUTENÇÃO",
    "stage": "11: EM APROVAÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Baixa",
    "tipo": "Corretiva",
    "priority": 3,
@@ -248,7 +244,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-04-10 17:46:57",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 25,
@@ -256,10 +256,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Rio Sol"
-   ],
    "severidade": "Muito baixa",
    "tipo": "Corretiva",
    "priority": 1,
@@ -269,7 +265,11 @@
    "closed": "2026-06-30",
    "closed_dt": "2026-06-30 14:22:03",
    "stage_since": "2026-06-30 14:22:03",
-   "lead_days": 136.7
+   "lead_days": 136.7,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Rio Sol"
+   ]
   },
   {
    "id": 26,
@@ -277,10 +277,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Alta",
    "tipo": "Preventiva",
    "priority": 2,
@@ -290,7 +286,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 17:10:20",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 28,
@@ -298,10 +298,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 2,
@@ -311,7 +307,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 29.3
+   "lead_days": 29.3,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 29,
@@ -319,10 +319,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 0,
@@ -332,7 +328,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:30:44",
    "stage_since": "2026-03-31 17:30:44",
-   "lead_days": 29.3
+   "lead_days": 29.3,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 30,
@@ -340,10 +340,6 @@
    "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Rio Sol"
-   ],
    "severidade": "Muito alta",
    "tipo": "Corretiva",
    "priority": 3,
@@ -353,7 +349,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Rio Sol"
+   ]
   },
   {
    "id": 31,
@@ -361,10 +361,6 @@
    "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Muito alta",
    "tipo": "Preventiva",
    "priority": 2,
@@ -374,7 +370,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 32,
@@ -382,10 +382,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Preventiva",
    "priority": 3,
@@ -395,7 +391,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:03",
    "stage_since": "2026-03-31 17:23:03",
-   "lead_days": 25.8
+   "lead_days": 25.8,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 33,
@@ -403,10 +403,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Alta",
    "tipo": "Preventiva",
    "priority": 3,
@@ -416,7 +412,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 34,
@@ -424,10 +424,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Baixa",
    "tipo": "Preventiva",
    "priority": 2,
@@ -437,7 +433,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 17:06:06",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 35,
@@ -445,10 +445,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 0,
@@ -458,7 +454,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 25.8
+   "lead_days": 25.8,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 36,
@@ -466,10 +466,6 @@
    "project": "MANUTENÇÃO",
    "stage": "11: EM APROVAÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Alta",
    "tipo": "—",
    "priority": 2,
@@ -479,7 +475,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-07-06 14:40:36",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 37,
@@ -487,10 +487,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "LEONARDO DE CASTRO FERREIRA + ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 2,
@@ -500,7 +496,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 24.9
+   "lead_days": 24.9,
+   "resp": "LEONARDO DE CASTRO FERREIRA + TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 38,
@@ -508,10 +508,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 2,
@@ -521,7 +517,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 24.9
+   "lead_days": 24.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 39,
@@ -529,10 +529,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Rio Sol"
-   ],
    "severidade": "—",
    "tipo": "Preventiva",
    "priority": 0,
@@ -542,7 +538,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 24.7
+   "lead_days": 24.7,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Rio Sol"
+   ]
   },
   {
    "id": 40,
@@ -550,10 +550,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 0,
@@ -563,7 +559,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 21.2
+   "lead_days": 21.2,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 41,
@@ -571,10 +571,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Alta",
    "tipo": "Corretiva",
    "priority": 2,
@@ -584,7 +580,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 17:18:22",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 42,
@@ -592,10 +592,6 @@
    "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Muito baixa",
    "tipo": "Instalação",
    "priority": 2,
@@ -605,7 +601,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-20 18:59:39",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 43,
@@ -613,10 +613,6 @@
    "project": "MANUTENÇÃO",
    "stage": "11: EM APROVAÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Alta",
    "tipo": "Corretiva",
    "priority": 3,
@@ -626,7 +622,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-15 12:06:40",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 44,
@@ -634,10 +634,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Alta",
    "tipo": "Corretiva",
    "priority": 2,
@@ -647,7 +643,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-19 12:16:07",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 45,
@@ -655,10 +655,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Baixa",
    "tipo": "Corretiva",
    "priority": 1,
@@ -668,7 +664,11 @@
    "closed": "2026-06-09",
    "closed_dt": "2026-06-09 16:19:53",
    "stage_since": "2026-06-09 16:19:53",
-   "lead_days": 78.0
+   "lead_days": 78.0,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 46,
@@ -676,10 +676,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 2,
@@ -689,7 +685,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 17:15:12",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 47,
@@ -697,10 +697,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Baixa",
    "tipo": "Corretiva",
    "priority": 3,
@@ -710,7 +706,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 16:47:08",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 52,
@@ -718,10 +718,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -731,7 +727,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 7.0
+   "lead_days": 7.0,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 53,
@@ -739,10 +739,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 1,
@@ -752,7 +748,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 7.0
+   "lead_days": 7.0,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 57,
@@ -760,10 +760,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -773,7 +769,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 58,
@@ -781,10 +781,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -794,7 +790,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 59,
@@ -802,10 +802,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -815,7 +811,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 187,
@@ -823,10 +823,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Média",
    "tipo": "Preventiva",
    "priority": 1,
@@ -836,7 +832,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 16:49:37",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 188,
@@ -844,10 +844,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -857,7 +853,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 252,
@@ -865,10 +865,6 @@
    "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Alta",
    "tipo": "Instalação",
    "priority": 1,
@@ -878,7 +874,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 253,
@@ -886,10 +886,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Preventiva",
    "priority": 1,
@@ -899,7 +895,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 254,
@@ -907,10 +907,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -920,7 +916,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 255,
@@ -928,10 +928,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 1,
@@ -941,7 +937,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 256,
@@ -949,10 +949,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Média",
    "tipo": "Instalação",
    "priority": 1,
@@ -962,7 +958,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 16:49:00",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 257,
@@ -970,10 +970,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 1,
@@ -983,7 +979,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 258,
@@ -991,10 +991,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 1,
@@ -1004,7 +1000,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 259,
@@ -1012,10 +1012,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1025,7 +1021,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 260,
@@ -1033,10 +1033,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Preventiva",
    "priority": 1,
@@ -1046,7 +1042,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 261,
@@ -1054,10 +1054,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1067,7 +1063,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 262,
@@ -1075,10 +1075,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Preventiva",
    "priority": 1,
@@ -1088,7 +1084,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 263,
@@ -1096,10 +1096,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 1,
@@ -1109,7 +1105,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 264,
@@ -1117,10 +1117,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Preventiva",
    "priority": 1,
@@ -1130,7 +1126,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 265,
@@ -1138,10 +1138,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1151,7 +1147,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 266,
@@ -1159,10 +1159,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1172,7 +1168,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 267,
@@ -1180,10 +1180,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1193,7 +1189,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 268,
@@ -1201,10 +1201,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1214,7 +1210,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 269,
@@ -1222,10 +1222,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1235,7 +1231,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 270,
@@ -1243,10 +1243,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1256,7 +1252,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 271,
@@ -1264,10 +1264,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1277,7 +1273,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 272,
@@ -1285,10 +1285,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 1,
@@ -1298,7 +1294,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 273,
@@ -1306,10 +1306,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1319,7 +1315,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 274,
@@ -1327,10 +1327,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1340,7 +1336,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 275,
@@ -1348,10 +1348,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1361,7 +1357,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 276,
@@ -1369,10 +1369,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 1,
@@ -1382,7 +1378,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 277,
@@ -1390,10 +1390,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 1,
@@ -1403,7 +1399,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 278,
@@ -1411,10 +1411,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 1,
@@ -1424,7 +1420,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 279,
@@ -1432,10 +1432,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 1,
@@ -1445,7 +1441,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 280,
@@ -1453,10 +1453,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1466,7 +1462,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 281,
@@ -1474,10 +1474,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1487,7 +1483,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 282,
@@ -1495,10 +1495,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1508,7 +1504,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 283,
@@ -1516,10 +1516,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1529,7 +1525,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 284,
@@ -1537,10 +1537,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Baixa",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1550,7 +1546,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 285,
@@ -1558,10 +1558,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1571,7 +1567,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 286,
@@ -1579,10 +1579,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Muito baixa",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1592,7 +1588,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 287,
@@ -1600,10 +1600,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1613,7 +1609,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 288,
@@ -1621,10 +1621,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1634,7 +1630,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 289,
@@ -1642,10 +1642,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1655,7 +1651,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 290,
@@ -1663,10 +1663,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1676,7 +1672,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 291,
@@ -1684,10 +1684,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "—",
    "tipo": "Preventiva",
    "priority": 1,
@@ -1697,7 +1693,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 292,
@@ -1705,10 +1705,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1718,7 +1714,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 293,
@@ -1726,10 +1726,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1739,7 +1735,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 294,
@@ -1747,10 +1747,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1760,7 +1756,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 295,
@@ -1768,10 +1768,6 @@
    "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Alta",
    "tipo": "Preventiva",
    "priority": 1,
@@ -1781,7 +1777,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 296,
@@ -1789,10 +1789,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1802,7 +1798,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 297,
@@ -1810,10 +1810,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Preventiva",
    "priority": 1,
@@ -1823,7 +1819,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 298,
@@ -1831,10 +1831,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1844,7 +1840,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 299,
@@ -1852,10 +1852,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1865,7 +1861,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 300,
@@ -1873,10 +1873,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Alta",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1886,7 +1882,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 301,
@@ -1894,10 +1894,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 1,
@@ -1907,7 +1903,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 302,
@@ -1915,10 +1915,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "—",
    "tipo": "Preventiva",
    "priority": 1,
@@ -1928,7 +1924,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 303,
@@ -1936,10 +1936,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1949,7 +1945,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 304,
@@ -1957,10 +1957,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1970,7 +1966,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 305,
@@ -1978,10 +1978,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 1,
@@ -1991,7 +1987,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 306,
@@ -1999,10 +1999,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 1,
@@ -2012,7 +2008,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-04-02 16:28:29",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 308,
@@ -2020,10 +2020,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "—",
    "tipo": "Preventiva",
    "priority": 1,
@@ -2033,7 +2029,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 309,
@@ -2041,10 +2041,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Rio Sol"
-   ],
    "severidade": "Média",
    "tipo": "Instalação",
    "priority": 1,
@@ -2054,7 +2050,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Rio Sol"
+   ]
   },
   {
    "id": 310,
@@ -2062,10 +2062,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Rio Sol"
-   ],
    "severidade": "Média",
    "tipo": "Instalação",
    "priority": 1,
@@ -2075,7 +2071,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Rio Sol"
+   ]
   },
   {
    "id": 311,
@@ -2083,10 +2083,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Rio Sol"
-   ],
    "severidade": "—",
    "tipo": "Instalação",
    "priority": 1,
@@ -2096,7 +2092,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Rio Sol"
+   ]
   },
   {
    "id": 312,
@@ -2104,10 +2104,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Média",
    "tipo": "Instalação",
    "priority": 1,
@@ -2117,7 +2113,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:23:04",
    "stage_since": "2026-03-31 17:23:04",
-   "lead_days": 6.9
+   "lead_days": 6.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 313,
@@ -2125,10 +2125,6 @@
    "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Muito alta",
    "tipo": "—",
    "priority": 3,
@@ -2138,7 +2134,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-19 12:17:29",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 314,
@@ -2146,10 +2146,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "—",
    "tipo": "Corretiva",
    "priority": 1,
@@ -2159,7 +2155,11 @@
    "closed": "2026-03-31",
    "closed_dt": "2026-03-31 17:30:42",
    "stage_since": "2026-03-31 17:30:42",
-   "lead_days": 6.0
+   "lead_days": 6.0,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 315,
@@ -2167,10 +2167,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Alta",
    "tipo": "Corretiva",
    "priority": 3,
@@ -2180,7 +2176,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 16:55:51",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 316,
@@ -2188,10 +2188,6 @@
    "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Alta",
    "tipo": "—",
    "priority": 2,
@@ -2201,7 +2197,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-20 15:22:37",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 317,
@@ -2209,10 +2209,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Média",
    "tipo": "Instalação",
    "priority": 1,
@@ -2222,7 +2218,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 17:19:09",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 318,
@@ -2230,10 +2230,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Alta",
    "tipo": "Corretiva",
    "priority": 3,
@@ -2243,7 +2239,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 16:55:41",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 319,
@@ -2251,10 +2251,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Rio Sol"
-   ],
    "severidade": "Média",
    "tipo": "Instalação",
    "priority": 1,
@@ -2264,7 +2260,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-04-11 06:23:57",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Rio Sol"
+   ]
   },
   {
    "id": 320,
@@ -2272,10 +2272,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 1,
@@ -2285,7 +2281,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 17:19:43",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 321,
@@ -2293,13 +2293,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares",
-    "Apolo II - PK",
-    "Apolo III - Ibiraçu",
-    "Rio Sol"
-   ],
    "severidade": "Alta",
    "tipo": "Instalação",
    "priority": 2,
@@ -2309,7 +2302,14 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 17:40:25",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares",
+    "Apolo II - PK",
+    "Apolo III - Ibiraçu",
+    "Rio Sol"
+   ]
   },
   {
    "id": 322,
@@ -2317,10 +2317,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Rio Sol"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 0,
@@ -2330,7 +2326,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 17:20:39",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Rio Sol"
+   ]
   },
   {
    "id": 323,
@@ -2338,10 +2338,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Muito alta",
    "tipo": "Corretiva",
    "priority": 2,
@@ -2351,7 +2347,11 @@
    "closed": "2026-05-19",
    "closed_dt": "2026-05-19 12:27:54",
    "stage_since": "2026-05-19 12:27:54",
-   "lead_days": 12.9
+   "lead_days": 12.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 324,
@@ -2359,10 +2359,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Alta",
    "tipo": "Preventiva",
    "priority": 1,
@@ -2372,7 +2368,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-19 15:39:46",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 325,
@@ -2380,10 +2380,6 @@
    "project": "MANUTENÇÃO",
    "stage": "11: EM APROVAÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 1,
@@ -2393,7 +2389,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-06-05 15:57:35",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 326,
@@ -2401,10 +2401,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 1,
@@ -2414,7 +2410,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-20 14:05:27",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 327,
@@ -2422,10 +2422,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 0,
@@ -2435,7 +2431,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-19 11:41:13",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 328,
@@ -2443,10 +2443,6 @@
    "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Muito baixa",
    "tipo": "Corretiva",
    "priority": 0,
@@ -2456,7 +2452,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-15 12:34:04",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 329,
@@ -2464,10 +2464,6 @@
    "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Média",
    "tipo": "Instalação",
    "priority": 1,
@@ -2477,7 +2473,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-15 12:34:50",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 330,
@@ -2485,10 +2485,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Muito baixa",
    "tipo": "Preventiva",
    "priority": 1,
@@ -2498,7 +2494,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 17:49:39",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 331,
@@ -2506,10 +2506,6 @@
    "project": "MANUTENÇÃO",
    "stage": "11: EM APROVAÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Muito baixa",
    "tipo": "Preventiva",
    "priority": 2,
@@ -2519,7 +2515,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-06-09 16:17:45",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 332,
@@ -2527,10 +2527,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 1,
@@ -2540,7 +2536,11 @@
    "closed": "2026-05-19",
    "closed_dt": "2026-05-19 12:29:20",
    "stage_since": "2026-05-19 12:29:20",
-   "lead_days": 10.8
+   "lead_days": 10.8,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 333,
@@ -2548,10 +2548,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Baixa",
    "tipo": "Corretiva",
    "priority": 1,
@@ -2561,7 +2557,11 @@
    "closed": "2026-06-09",
    "closed_dt": "2026-06-09 16:14:51",
    "stage_since": "2026-06-09 16:14:51",
-   "lead_days": 31.9
+   "lead_days": 31.9,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 334,
@@ -2569,10 +2569,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Alta",
    "tipo": "Corretiva",
    "priority": 2,
@@ -2582,7 +2578,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 17:35:54",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 335,
@@ -2590,10 +2590,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Baixa",
    "tipo": "Corretiva",
    "priority": 2,
@@ -2603,7 +2599,11 @@
    "closed": "2026-05-28",
    "closed_dt": "2026-05-28 14:32:01",
    "stage_since": "2026-05-28 14:32:01",
-   "lead_days": 19.9
+   "lead_days": 19.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 336,
@@ -2611,10 +2611,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Muito baixa",
    "tipo": "Corretiva",
    "priority": 0,
@@ -2624,7 +2620,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-19 12:25:49",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 337,
@@ -2632,10 +2632,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 1,
@@ -2645,7 +2641,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-18 19:07:04",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 338,
@@ -2653,10 +2653,6 @@
    "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Média",
    "tipo": "—",
    "priority": 1,
@@ -2666,7 +2662,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-19 11:29:48",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 339,
@@ -2674,13 +2674,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares",
-    "Apolo II - PK",
-    "Apolo III - Ibiraçu",
-    "Rio Sol"
-   ],
    "severidade": "Alta",
    "tipo": "Instalação",
    "priority": 2,
@@ -2690,7 +2683,14 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-12 17:32:37",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares",
+    "Apolo II - PK",
+    "Apolo III - Ibiraçu",
+    "Rio Sol"
+   ]
   },
   {
    "id": 340,
@@ -2698,10 +2698,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Média",
    "tipo": "Instalação",
    "priority": 3,
@@ -2711,7 +2707,11 @@
    "closed": "2026-05-19",
    "closed_dt": "2026-05-19 17:22:58",
    "stage_since": "2026-05-19 17:22:58",
-   "lead_days": 10.9
+   "lead_days": 10.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 341,
@@ -2719,10 +2719,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 2,
@@ -2732,7 +2728,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-22 17:48:41",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 342,
@@ -2740,10 +2740,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Muito alta",
    "tipo": "—",
    "priority": 3,
@@ -2753,7 +2749,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-19 12:17:06",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 343,
@@ -2761,10 +2761,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Muito alta",
    "tipo": "Corretiva",
    "priority": 3,
@@ -2774,7 +2770,11 @@
    "closed": "2026-05-25",
    "closed_dt": "2026-05-25 11:39:00",
    "stage_since": "2026-05-25 11:39:00",
-   "lead_days": 10.9
+   "lead_days": 10.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 344,
@@ -2782,10 +2782,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Alta",
    "tipo": "Corretiva",
    "priority": 1,
@@ -2795,7 +2791,11 @@
    "closed": "2026-06-09",
    "closed_dt": "2026-06-09 16:18:51",
    "stage_since": "2026-06-09 16:18:51",
-   "lead_days": 22.0
+   "lead_days": 22.0,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 345,
@@ -2803,10 +2803,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 1,
@@ -2816,7 +2812,11 @@
    "closed": "2026-05-28",
    "closed_dt": "2026-05-28 13:42:23",
    "stage_since": "2026-05-28 13:42:23",
-   "lead_days": 9.9
+   "lead_days": 9.9,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 346,
@@ -2824,10 +2824,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Muito alta",
    "tipo": "Corretiva",
    "priority": 2,
@@ -2837,7 +2833,11 @@
    "closed": "2026-05-28",
    "closed_dt": "2026-05-28 17:41:59",
    "stage_since": "2026-05-28 17:41:59",
-   "lead_days": 10.1
+   "lead_days": 10.1,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 347,
@@ -2845,10 +2845,6 @@
    "project": "MANUTENÇÃO",
    "stage": "28: APROVADO COM RESSALVAS",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 1,
@@ -2858,7 +2854,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-28 13:44:47",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 348,
@@ -2866,10 +2866,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 1,
@@ -2879,7 +2875,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-18 18:03:04",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 349,
@@ -2887,10 +2887,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Alta",
    "tipo": "Corretiva",
    "priority": 1,
@@ -2900,7 +2896,11 @@
    "closed": "2026-05-28",
    "closed_dt": "2026-05-28 13:40:47",
    "stage_since": "2026-05-28 13:40:47",
-   "lead_days": 9.8
+   "lead_days": 9.8,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 350,
@@ -2908,10 +2908,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Muito alta",
    "tipo": "Corretiva",
    "priority": 3,
@@ -2921,7 +2917,11 @@
    "closed": "2026-05-19",
    "closed_dt": "2026-05-19 17:23:28",
    "stage_since": "2026-05-19 17:23:28",
-   "lead_days": 0.1
+   "lead_days": 0.1,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 351,
@@ -2929,10 +2929,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Rio Sol"
-   ],
    "severidade": "Alta",
    "tipo": "Corretiva",
    "priority": 2,
@@ -2942,7 +2938,11 @@
    "closed": "2026-05-25",
    "closed_dt": "2026-05-25 14:13:46",
    "stage_since": "2026-05-25 14:13:46",
-   "lead_days": 4.1
+   "lead_days": 4.1,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Rio Sol"
+   ]
   },
   {
    "id": 352,
@@ -2950,10 +2950,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Muito alta",
    "tipo": "Corretiva",
    "priority": 2,
@@ -2963,7 +2959,11 @@
    "closed": "2026-05-28",
    "closed_dt": "2026-05-28 13:37:04",
    "stage_since": "2026-05-28 13:37:04",
-   "lead_days": 7.1
+   "lead_days": 7.1,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 353,
@@ -2971,10 +2971,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Média",
    "tipo": "Instalação",
    "priority": 2,
@@ -2984,7 +2980,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-21 11:19:45",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 354,
@@ -2992,10 +2992,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Baixa",
    "tipo": "Corretiva",
    "priority": 1,
@@ -3005,7 +3001,11 @@
    "closed": "2026-05-27",
    "closed_dt": "2026-05-27 13:37:03",
    "stage_since": "2026-05-27 13:37:03",
-   "lead_days": 4.8
+   "lead_days": 4.8,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 355,
@@ -3013,10 +3013,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Baixa",
    "tipo": "Corretiva",
    "priority": 1,
@@ -3026,7 +3022,11 @@
    "closed": "2026-05-25",
    "closed_dt": "2026-05-25 14:11:45",
    "stage_since": "2026-05-25 14:11:45",
-   "lead_days": 2.8
+   "lead_days": 2.8,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 356,
@@ -3034,10 +3034,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Muito alta",
    "tipo": "Corretiva",
    "priority": 2,
@@ -3047,7 +3043,11 @@
    "closed": "2026-06-09",
    "closed_dt": "2026-06-09 16:14:13",
    "stage_since": "2026-06-09 16:14:13",
-   "lead_days": 17.9
+   "lead_days": 17.9,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 357,
@@ -3055,10 +3055,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "ID 6",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Baixa",
    "tipo": "Corretiva",
    "priority": 2,
@@ -3068,7 +3064,11 @@
    "closed": "2026-05-26",
    "closed_dt": "2026-05-26 19:11:58",
    "stage_since": "2026-05-26 19:11:58",
-   "lead_days": 4.0
+   "lead_days": 4.0,
+   "resp": "TERRA CONSTRUÇÕES",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 358,
@@ -3076,10 +3076,6 @@
    "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Muito alta",
    "tipo": "Preventiva",
    "priority": 3,
@@ -3089,7 +3085,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-26 12:32:54",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 359,
@@ -3097,10 +3097,6 @@
    "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Baixa",
    "tipo": "Corretiva",
    "priority": 2,
@@ -3110,7 +3106,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-26 12:35:52",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 364,
@@ -3118,10 +3118,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "1_done",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Média",
    "tipo": "Preventiva",
    "priority": 0,
@@ -3131,7 +3127,11 @@
    "closed": "2026-05-25",
    "closed_dt": "2026-05-25 14:13:41",
    "stage_since": "2026-05-25 14:13:41",
-   "lead_days": 0.7
+   "lead_days": 0.7,
+   "resp": "Sem responsável",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 366,
@@ -3139,10 +3139,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Alta",
    "tipo": "Corretiva",
    "priority": 2,
@@ -3152,7 +3148,11 @@
    "closed": "2026-06-08",
    "closed_dt": "2026-06-08 11:09:41",
    "stage_since": "2026-06-08 11:09:41",
-   "lead_days": 12.0
+   "lead_days": 12.0,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 367,
@@ -3160,10 +3160,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Alta",
    "tipo": "Corretiva",
    "priority": 3,
@@ -3173,7 +3169,11 @@
    "closed": "2026-06-03",
    "closed_dt": "2026-06-03 18:39:49",
    "stage_since": "2026-06-03 18:39:49",
-   "lead_days": 5.9
+   "lead_days": 5.9,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 368,
@@ -3181,10 +3181,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Alta",
    "tipo": "Corretiva",
    "priority": 2,
@@ -3194,7 +3190,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-05-29 13:49:05",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 369,
@@ -3202,10 +3202,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Muito alta",
    "tipo": "Corretiva",
    "priority": 3,
@@ -3215,7 +3211,11 @@
    "closed": "2026-06-09",
    "closed_dt": "2026-06-09 15:16:15",
    "stage_since": "2026-06-09 15:16:15",
-   "lead_days": 11.1
+   "lead_days": 11.1,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 370,
@@ -3223,10 +3223,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Muito alta",
    "tipo": "Corretiva",
    "priority": 3,
@@ -3236,7 +3232,11 @@
    "closed": "2026-06-09",
    "closed_dt": "2026-06-09 15:17:18",
    "stage_since": "2026-06-09 15:17:18",
-   "lead_days": 11.0
+   "lead_days": 11.0,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 371,
@@ -3244,13 +3244,6 @@
    "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares",
-    "Apolo II - PK",
-    "Apolo III - Ibiraçu",
-    "Rio Sol"
-   ],
    "severidade": "Média",
    "tipo": "Preventiva",
    "priority": 3,
@@ -3260,7 +3253,14 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-06-02 13:51:50",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares",
+    "Apolo II - PK",
+    "Apolo III - Ibiraçu",
+    "Rio Sol"
+   ]
   },
   {
    "id": 372,
@@ -3268,10 +3268,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 3,
@@ -3281,7 +3277,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-06-08 16:49:59",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 373,
@@ -3289,13 +3289,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA + LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares",
-    "Apolo II - PK",
-    "Apolo III - Ibiraçu",
-    "Rio Sol"
-   ],
    "severidade": "Alta",
    "tipo": "Preventiva",
    "priority": 3,
@@ -3305,7 +3298,14 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-06-22 14:11:31",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA + LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares",
+    "Apolo II - PK",
+    "Apolo III - Ibiraçu",
+    "Rio Sol"
+   ]
   },
   {
    "id": 374,
@@ -3313,8 +3313,6 @@
    "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "01_in_progress",
-   "resp": "Sem responsável",
-   "usinas": [],
    "severidade": "Média",
    "tipo": "—",
    "priority": 0,
@@ -3324,7 +3322,9 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-06-09 14:48:50",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "Sem responsável",
+   "usinas": []
   },
   {
    "id": 375,
@@ -3332,10 +3332,6 @@
    "project": "MANUTENÇÃO",
    "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Muito alta",
    "tipo": "Corretiva",
    "priority": 3,
@@ -3345,7 +3341,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-07-02 16:01:24",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 376,
@@ -3353,10 +3353,6 @@
    "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "01_in_progress",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Média",
    "tipo": "Preventiva",
    "priority": 1,
@@ -3366,7 +3362,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-06-09 17:06:11",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   },
   {
    "id": 377,
@@ -3374,10 +3374,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo III - Ibiraçu"
-   ],
    "severidade": "Muito alta",
    "tipo": "Corretiva",
    "priority": 3,
@@ -3387,7 +3383,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-06-23 17:49:27",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
   },
   {
    "id": 378,
@@ -3395,10 +3395,6 @@
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Alta",
    "tipo": "Corretiva",
    "priority": 2,
@@ -3408,7 +3404,11 @@
    "closed": "2026-07-13",
    "closed_dt": "2026-07-13 12:09:44",
    "stage_since": "2026-07-13 12:09:44",
-   "lead_days": 23.9
+   "lead_days": 23.9,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 379,
@@ -3416,10 +3416,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 1,
@@ -3429,7 +3425,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-06-22 14:11:24",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 380,
@@ -3437,10 +3437,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Rio Sol"
-   ],
    "severidade": "Muito alta",
    "tipo": "Corretiva",
    "priority": 3,
@@ -3450,7 +3446,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-06-23 17:53:00",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Rio Sol"
+   ]
   },
   {
    "id": 381,
@@ -3458,10 +3458,6 @@
    "project": "MANUTENÇÃO",
    "stage": "9: AGUARDANDO EXECUÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Baixa",
    "tipo": "Corretiva",
    "priority": 0,
@@ -3471,7 +3467,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-06-23 17:55:13",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 382,
@@ -3479,13 +3479,6 @@
    "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares",
-    "Apolo II - PK",
-    "Apolo III - Ibiraçu",
-    "Rio Sol"
-   ],
    "severidade": "Média",
    "tipo": "Preventiva",
    "priority": 1,
@@ -3495,7 +3488,14 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-06-24 19:23:56",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares",
+    "Apolo II - PK",
+    "Apolo III - Ibiraçu",
+    "Rio Sol"
+   ]
   },
   {
    "id": 383,
@@ -3503,10 +3503,6 @@
    "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "01_in_progress",
-   "resp": "Sem responsável",
-   "usinas": [
-    "Rio Sol"
-   ],
    "severidade": "Muito alta",
    "tipo": "Preventiva",
    "priority": 3,
@@ -3516,7 +3512,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-06-30 13:43:51",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Rio Sol"
+   ]
   },
   {
    "id": 384,
@@ -3524,10 +3524,6 @@
    "project": "MANUTENÇÃO",
    "stage": "11: EM APROVAÇÃO",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo I - Linhares"
-   ],
    "severidade": "Média",
    "tipo": "Corretiva",
    "priority": 2,
@@ -3537,7 +3533,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-07-10 10:42:44",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
+   ]
   },
   {
    "id": 387,
@@ -3545,10 +3545,6 @@
    "project": "MANUTENÇÃO",
    "stage": "8: NOVAS SOLICITAÇÕES",
    "state": "01_in_progress",
-   "resp": "LEONARDO DE CASTRO FERREIRA",
-   "usinas": [
-    "Apolo II - PK"
-   ],
    "severidade": "Alta",
    "tipo": "Corretiva",
    "priority": 3,
@@ -3558,7 +3554,11 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-07-09 18:00:55",
-   "lead_days": null
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo II - PK"
+   ]
   }
  ]
 }
