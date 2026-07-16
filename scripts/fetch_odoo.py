@@ -62,9 +62,30 @@ def call(models, uid, modelo, metodo, args, kwargs=None):
 
 
 def mapa(models, uid, modelo):
-    """id -> nome para um modelo (usuários, tags...)."""
-    regs = call(models, uid, modelo, "search_read", [[]], {"fields": ["id", "name"]})
+    """id -> nome para um modelo (usuários, tags...).
+
+    Usa active_test=False para INCLUIR registros arquivados/desativados.
+    Sem isso, um usuário desligado (arquivado) some da busca e as tarefas
+    dele apareceriam como 'ID 6' em vez do nome.
+    """
+    regs = call(models, uid, modelo, "search_read", [[]],
+                {"fields": ["id", "name"], "context": {"active_test": False}})
     return {r["id"]: r["name"] for r in regs}
+
+
+def resolver_faltantes(models, uid, modelo, mapa_atual, ids_usados):
+    """Busca direto no Odoo qualquer id que não esteja no mapa (rede de segurança)."""
+    faltando = sorted({i for i in ids_usados if i not in mapa_atual})
+    if not faltando:
+        return
+    try:
+        regs = call(models, uid, modelo, "read", [faltando],
+                    {"fields": ["id", "name"], "context": {"active_test": False}})
+        for r in regs:
+            mapa_atual[r["id"]] = r["name"]
+        print(f"[INFO] {modelo}: resolvidos {len(regs)} id(s) extra: {faltando}")
+    except Exception as e:
+        print(f"[AVISO] Não consegui resolver ids {faltando} em {modelo}: {e}")
 
 
 def detectar_campos(models, uid):
@@ -114,16 +135,17 @@ def buscar_tarefas(models, uid, users, tags, campos, selmaps):
 
     total = call(models, uid, "project.task", "search_count", [dominio])
     tarefas, offset = [], 0
+    usados_users, usados_tags = set(), set()
     while offset < total:
         lote = call(models, uid, "project.task", "search_read", [dominio],
                     {"fields": fields, "limit": 200, "offset": offset, "order": "id"})
         for t in lote:
-            # responsáveis
+            # responsáveis / usinas: guardamos os ids e resolvemos os nomes no fim,
+            # depois de buscar eventuais ids ausentes (ex.: usuário arquivado).
             rids = t.get("user_ids") or []
-            resp = " + ".join(users.get(i, f"ID {i}") for i in rids) if rids else "Sem responsável"
-            # usinas (tags)
             tids = t.get("tag_ids") or []
-            usinas = [tags.get(i, f"Tag {i}") for i in tids]
+            usados_users.update(rids)
+            usados_tags.update(tids)
             # severidade / tipo
             def valor(chave):
                 nome = campos.get(chave)
@@ -153,8 +175,8 @@ def buscar_tarefas(models, uid, users, tags, campos, selmaps):
                 "stage": (f'{t["stage_id"][0]}: {t["stage_id"][1]}'
                           if isinstance(t.get("stage_id"), list) else "—"),
                 "state": t.get("state") or "—",
-                "resp": resp,
-                "usinas": usinas,
+                "_rids": rids,
+                "_tids": tids,
                 "severidade": severidade,
                 "tipo": tipo,
                 "priority": int(t.get("priority") or 0),
@@ -167,6 +189,22 @@ def buscar_tarefas(models, uid, users, tags, campos, selmaps):
                 "lead_days": lead,
             })
         offset += 200
+
+    # Rede de segurança: busca direto os ids que não vieram no mapa
+    # (ex.: usuário desligado/arquivado, tag arquivada).
+    resolver_faltantes(models, uid, "res.users", users, usados_users)
+    resolver_faltantes(models, uid, "project.tags", tags, usados_tags)
+
+    # Agora monta os nomes com o mapa já completo.
+    for t in tarefas:
+        rids = t.pop("_rids")
+        tids = t.pop("_tids")
+        t["resp"] = " + ".join(users.get(i, f"ID {i}") for i in rids) if rids else "Sem responsável"
+        t["usinas"] = [tags.get(i, f"Tag {i}") for i in tids]
+
+    faltou = sorted({i for i in usados_users if i not in users})
+    if faltou:
+        print(f"[AVISO] Usuários ainda sem nome (aparecerão como 'ID x'): {faltou}")
     return tarefas
 
 
