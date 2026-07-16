@@ -327,9 +327,13 @@ function escapeHtml(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"
 
 const F={project:"",usina:"",tipo:"",sev:"",stage:"",resp:"",prio:"",q:"",hideDone:false};
 function uniq(a){return [...new Set(a)];}
-function fill(sel,items,label,cur){
+const ABERTAS="__abertas__";   // valor especial: todas menos as finalizadas
+function fill(sel,items,label,cur,extra){
   const el=document.getElementById(sel);el.innerHTML="";
-  const all=document.createElement("option");all.value="";all.textContent="Todas";el.appendChild(all);
+  const all=document.createElement("option");all.value="";all.textContent="Todas";
+  if(String(cur)==="")all.selected=true;el.appendChild(all);
+  if(extra){const o=document.createElement("option");o.value=extra.value;o.textContent=extra.label;
+    if(String(extra.value)===String(cur))o.selected=true;el.appendChild(o);}
   items.forEach(v=>{const o=document.createElement("option");o.value=v;o.textContent=label(v);if(String(v)===String(cur))o.selected=true;el.appendChild(o);});
 }
 function initFilters(){
@@ -341,11 +345,12 @@ function initFilters(){
   const resps=uniq(DATA.map(d=>d.resp)).sort();
   const prios=uniq(DATA.map(d=>String(d.priority))).sort();
   const man=projects.find(p=>/MANUTEN/i.test(p)); if(man)F.project=man;
+  F.stage=ABERTAS;   // padrão: todas menos as finalizadas
   fill("f-project",projects,v=>v,F.project);
   fill("f-usina",usinas,v=>v,"");
   fill("f-tipo",tipos,v=>v,"");
   fill("f-sev",sevs,v=>v,"");
-  fill("f-stage",stages,stageLabel,"");
+  fill("f-stage",stages,stageLabel,F.stage,{value:ABERTAS,label:"Em aberto (exceto finalizadas)"});
   fill("f-resp",resps,v=>v,"");
   fill("f-prio",prios,prioLabel,"");
   const on=(id,key)=>document.getElementById(id).onchange=e=>{F[key]=e.target.value;render();};
@@ -359,7 +364,10 @@ function initFilters(){
     render();};
   document.getElementById("f-clear").onclick=()=>{
     Object.keys(F).forEach(k=>F[k]=(k==="hideDone")?false:"");
-    document.querySelectorAll("select").forEach(s=>s.value="");document.getElementById("search").value="";render();};
+    F.stage=ABERTAS;   // volta ao padrão
+    document.querySelectorAll("select").forEach(s=>s.value="");
+    document.getElementById("f-stage").value=ABERTAS;
+    document.getElementById("search").value="";render();};
 }
 function applyFilters(){
   return DATA.filter(d=>{
@@ -367,7 +375,8 @@ function applyFilters(){
     if(F.usina&&!(d.usinas||[]).includes(F.usina))return false;
     if(F.tipo&&d.tipo!==F.tipo)return false;
     if(F.sev&&d.severidade!==F.sev)return false;
-    if(F.stage&&d.stage!==F.stage)return false;
+    if(F.stage===ABERTAS){ if(isFinalized(d))return false; }
+    else if(F.stage&&d.stage!==F.stage)return false;
     if(F.resp&&d.resp!==F.resp)return false;
     if(F.prio&&String(d.priority)!==F.prio)return false;
     if(F.q&&!d.name.toLowerCase().includes(F.q))return false;
@@ -407,10 +416,11 @@ function hbars(elId,arr,colorFn){
      <span class="bct">${c}</span></div>`).join(""):`<div class="empty">Sem dados</div>`;
 }
 function renderExec(rows){
-  // Com estágio selecionado: rows já vem filtrado por ele. Sem estágio: só não finalizadas.
-  const base = F.stage ? rows : rows.filter(d=>!isFinalized(d));
-  const titulo = F.stage ? `${stageLabel(F.stage)} há mais tempo` : "Tarefas há mais tempo em aberto";
-  const cap = F.stage
+  // rows já vem filtrado (inclusive pelo padrão "em aberto").
+  const espec = F.stage && F.stage!==ABERTAS;   // estágio específico selecionado?
+  const base = espec ? rows : rows.filter(d=>!isFinalized(d));
+  const titulo = espec ? `${stageLabel(F.stage)} há mais tempo` : "Tarefas há mais tempo em aberto";
+  const cap = espec
     ? `As 5 tarefas em "${stageLabel(F.stage)}" com maior tempo em aberto — da criação até a última atualização do bot.`
     : "As 5 tarefas não finalizadas com maior tempo em aberto — da criação até a última atualização do bot.";
   document.getElementById("exec-title").textContent = titulo;
@@ -451,7 +461,7 @@ function renderPipeline(allRows){
       <text x="90" y="86" text-anchor="middle" class="pie-num">${rows.length}</text>
       <text x="90" y="106" text-anchor="middle" class="pie-lab">tarefas</text></svg>`;
   document.querySelectorAll("#pie circle").forEach(c=>c.onclick=()=>{
-    const s=c.getAttribute("data-stage");F.stage=(F.stage===s)?"":s;
+    const s=c.getAttribute("data-stage");F.stage=(F.stage===s)?ABERTAS:s;
     document.getElementById("f-stage").value=F.stage;render();});
   document.getElementById("stagelist").innerHTML=counts.map(x=>{
     const active=F.stage===x.s?"active":"";
@@ -460,7 +470,7 @@ function renderPipeline(allRows){
       <span class="nm">${stageLabel(x.s)}</span><span class="ct">${x.c}</span>
       <span class="pc">${Math.round(x.c/total*100)}%</span></div>`;}).join("");
   document.querySelectorAll(".stagerow").forEach(el=>el.onclick=()=>{
-    const s=el.getAttribute("data-stage");F.stage=(F.stage===s)?"":s;
+    const s=el.getAttribute("data-stage");F.stage=(F.stage===s)?ABERTAS:s;
     document.getElementById("f-stage").value=F.stage;render();});
 }
 function renderResp(rows){
