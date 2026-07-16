@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-16T17:16:50+00:00",
- "count": 169,
+ "generated_at": "2026-07-16T18:40:31+00:00",
+ "count": 170,
  "tasks": [
   {
    "id": 6,
@@ -3558,6 +3558,27 @@
    "resp": "LEONARDO DE CASTRO FERREIRA",
    "usinas": [
     "Apolo II - PK"
+   ]
+  },
+  {
+   "id": 390,
+   "name": "Substituir datalogger Canadian",
+   "project": "MANUTENÇÃO",
+   "stage": "8: NOVAS SOLICITAÇÕES",
+   "state": "01_in_progress",
+   "severidade": "Alta",
+   "tipo": "Corretiva",
+   "priority": 3,
+   "deadline": null,
+   "created": "2026-07-16",
+   "created_dt": "2026-07-16 18:05:23",
+   "closed": null,
+   "closed_dt": null,
+   "stage_since": "2026-07-16 18:05:23",
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
    ]
   }
  ]
