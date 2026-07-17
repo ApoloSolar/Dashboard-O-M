@@ -31,6 +31,7 @@ SAIDA = os.path.join(os.path.dirname(__file__), "..", "docs", "data.json")
 # Nomes técnicos dos campos customizados (descobertos na exportação).
 CAMPO_SEVERIDADE = "x_studio_severidade"
 CAMPO_TIPO = "x_studio_tipo_de_manutencao"
+CAMPO_TOTAL = "x_studio_total"          # soma de gastos da tarefa
 
 
 def url_base():
@@ -93,14 +94,18 @@ def detectar_campos(models, uid):
     meta = call(models, uid, "project.task", "fields_get", [],
                 {"attributes": ["type", "selection", "string"]})
     campos = {}
-    for chave, alvo in (("severidade", CAMPO_SEVERIDADE), ("tipo", CAMPO_TIPO)):
+    # chave -> (nome esperado, termo p/ busca aproximada, termo extra obrigatório)
+    alvos = (
+        ("severidade", CAMPO_SEVERIDADE, "sever", None),
+        ("tipo", CAMPO_TIPO, "tipo", "manuten"),
+        ("total", CAMPO_TOTAL, "total", None),
+    )
+    for chave, alvo, termo, extra in alvos:
         if alvo in meta:
             campos[chave] = alvo
         else:
-            # fallback: procura por aproximação no nome
-            termo = "sever" if chave == "severidade" else "tipo"
             achado = next((f for f in meta if f.startswith("x_studio_") and termo in f.lower()
-                           and (chave != "tipo" or "manuten" in f.lower())), None)
+                           and (extra is None or extra in f.lower())), None)
             campos[chave] = achado
             print(f"[AVISO] Campo '{alvo}' não encontrado; usando '{achado}'.")
     # mapas de seleção (chave -> rótulo), quando for campo selection
@@ -108,7 +113,8 @@ def detectar_campos(models, uid):
     for chave, nome in campos.items():
         if nome and meta.get(nome, {}).get("type") == "selection":
             selmaps[chave] = {str(k): v for k, v in (meta[nome].get("selection") or [])}
-    print(f"[INFO] Campos usados -> severidade: {campos['severidade']}, tipo: {campos['tipo']}")
+    print(f"[INFO] Campos usados -> severidade: {campos['severidade']}, "
+          f"tipo: {campos['tipo']}, total: {campos['total']}")
     return campos, selmaps
 
 
@@ -127,7 +133,7 @@ def buscar_tarefas(models, uid, users, tags, campos, selmaps):
     base_fields = ["id", "name", "project_id", "stage_id", "state", "user_ids",
                    "priority", "date_deadline", "create_date",
                    "date_last_stage_update", "tag_ids", "parent_id"]
-    extra = [c for c in (campos["severidade"], campos["tipo"]) if c]
+    extra = [c for c in (campos["severidade"], campos["tipo"], campos["total"]) if c]
     fields = base_fields + extra
 
     # Exclui subtarefas (parent_id preenchido) e a tarefa de ID 1, já na busca.
@@ -160,6 +166,15 @@ def buscar_tarefas(models, uid, users, tags, campos, selmaps):
                 return selmaps.get(chave, {}).get(v, v)
             severidade = valor("severidade") or "—"
             tipo = valor("tipo") or "—"
+            # total de gastos (numérico; False/None quando vazio no Odoo)
+            total = None
+            if campos.get("total"):
+                bruto = t.get(campos["total"])
+                if bruto not in (None, False, ""):
+                    try:
+                        total = float(bruto)
+                    except (TypeError, ValueError):
+                        total = None
             # tempo de conclusão (só finalizadas)
             stage_nome = t["stage_id"][1] if isinstance(t.get("stage_id"), list) else ""
             finalizada = "FINALIZ" in (stage_nome or "").upper()
@@ -179,6 +194,7 @@ def buscar_tarefas(models, uid, users, tags, campos, selmaps):
                 "_tids": tids,
                 "severidade": severidade,
                 "tipo": tipo,
+                "total": total,
                 "priority": int(t.get("priority") or 0),
                 "deadline": (t["date_deadline"][:10] if t.get("date_deadline") else None),
                 "created": (t["create_date"][:10] if t.get("create_date") else None),
