@@ -264,7 +264,7 @@
         <thead><tr>
           <th>ID</th><th>Tarefa</th><th>Usina</th><th>Tipo</th><th>Sev.</th>
           <th>Estágio</th><th>Responsável</th><th>Prio.</th>
-          <th class="nowrap">Prazo</th><th class="nowrap">Tempo</th>
+          <th class="nowrap">Prazo</th><th class="nowrap">Tempo</th><th class="nowrap">Total</th>
         </tr></thead>
         <tbody id="tbody"></tbody>
       </table>
@@ -313,6 +313,11 @@ function elapsedHours(d){
   return Math.max(0,(GENERATED-s)/3600000);
 }
 function fmtDH(h){ if(h==null)return "—"; const t=Math.round(h); const dd=Math.floor(t/24),hh=t%24; return dd>0?`${dd}d ${hh}h`:`${hh}h`; }
+function fmtBRL(v){
+  if(v==null||v===""||v===false)return "—";
+  const n=Number(v); if(!isFinite(n))return "—";
+  return n.toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
+}
 function stageId(s){ if(!s||s==="—")return null; const m=String(s).match(/^(\d+)/); return m?m[1]:null; }
 function stageLabel(s){ const id=stageId(s); if(id&&STAGE_META[id])return STAGE_META[id].label; const t=String(s).split(":").slice(1).join(":").trim(); return t||s||"—"; }
 function stageColor(s){ const id=stageId(s); return (id&&STAGE_META[id]?STAGE_META[id].color:FALLBACK.color); }
@@ -518,7 +523,7 @@ function renderTable(rows){
   const sorted=[...rows].sort((a,b)=>stageOrder(a.stage)-stageOrder(b.stage)||sevOrder(b.severidade)-sevOrder(a.severidade));
   document.getElementById("tcount").textContent=`${rows.length} de ${DATA.length}`;
   const tb=document.getElementById("tbody");
-  if(!rows.length){tb.innerHTML=`<tr><td colspan="10"><div class="empty">Nenhuma tarefa com os filtros atuais.</div></td></tr>`;return;}
+  if(!rows.length){tb.innerHTML=`<tr><td colspan="11"><div class="empty">Nenhuma tarefa com os filtros atuais.</div></td></tr>`;return;}
   tb.innerHTML=sorted.map(d=>{
     const sev=(d.severidade&&d.severidade!=="—")?`<span class="sev-pill" style="background:${sevColor(d.severidade)}">${d.severidade}</span>`:"—";
     const usina=(d.usinas&&d.usinas.length)?escapeHtml(d.usinas.join(", ")):"—";
@@ -527,7 +532,7 @@ function renderTable(rows){
       <td>${usina}</td><td>${escapeHtml(d.tipo)}</td><td>${sev}</td>
       <td><span class="tag"><span class="dot" style="background:${stageColor(d.stage)}"></span>${stageLabel(d.stage)}</span></td>
       <td>${escapeHtml(d.resp)}</td><td><span class="pill">${prioLabel(d.priority)}</span></td>
-      <td class="nowrap">${fmtDate(d.deadline)}</td><td class="nowrap lead">${fmtDH(elapsedHours(d))}</td>
+      <td class="nowrap">${fmtDate(d.deadline)}</td><td class="nowrap lead">${fmtDH(elapsedHours(d))}</td><td class="nowrap lead">${fmtBRL(d.total)}</td>
     </tr>`;}).join("");
 }
 
