@@ -167,14 +167,14 @@ def buscar_tarefas(models, uid, users, tags, campos, selmaps):
             severidade = valor("severidade") or "—"
             tipo = valor("tipo") or "—"
             # total de gastos (numérico; False/None quando vazio no Odoo)
-            total = None
+            total_gasto = None
             if campos.get("total"):
                 bruto = t.get(campos["total"])
                 if bruto not in (None, False, ""):
                     try:
-                        total = float(bruto)
+                        total_gasto = float(bruto)
                     except (TypeError, ValueError):
-                        total = None
+                        total_gasto = None
             # tempo de conclusão (só finalizadas)
             stage_nome = t["stage_id"][1] if isinstance(t.get("stage_id"), list) else ""
             finalizada = "FINALIZ" in (stage_nome or "").upper()
@@ -194,7 +194,7 @@ def buscar_tarefas(models, uid, users, tags, campos, selmaps):
                 "_tids": tids,
                 "severidade": severidade,
                 "tipo": tipo,
-                "total": total,
+                "total": total_gasto,
                 "priority": int(t.get("priority") or 0),
                 "deadline": (t["date_deadline"][:10] if t.get("date_deadline") else None),
                 "created": (t["create_date"][:10] if t.get("create_date") else None),
