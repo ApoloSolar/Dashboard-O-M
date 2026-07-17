@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-17T11:34:14+00:00",
+ "generated_at": "2026-07-17T11:37:23+00:00",
  "count": 170,
  "tasks": [
   {
@@ -622,7 +622,7 @@
    "state": "01_in_progress",
    "severidade": "Muito baixa",
    "tipo": "Instalação",
-   "total": null,
+   "total": 1650.0,
    "priority": 2,
    "deadline": null,
    "created": "2026-03-23",
