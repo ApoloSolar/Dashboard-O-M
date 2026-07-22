@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-22T17:35:21+00:00",
+ "generated_at": "2026-07-22T19:20:51+00:00",
  "count": 171,
  "tasks": [
   {
@@ -640,8 +640,8 @@
    "id": 43,
    "name": "Substituir relé SE Ibiraçu",
    "project": "MANUTENÇÃO",
-   "stage": "11: EM APROVAÇÃO",
-   "state": "03_approved",
+   "stage": "12: FINALIZADO",
+   "state": "1_done",
    "severidade": "Alta",
    "tipo": "Corretiva",
    "total": null,
@@ -649,10 +649,10 @@
    "deadline": null,
    "created": "2026-03-23",
    "created_dt": "2026-03-23 14:42:29",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-07-21 16:49:57",
-   "lead_days": null,
+   "closed": "2026-07-22",
+   "closed_dt": "2026-07-22 19:12:34",
+   "stage_since": "2026-07-22 19:12:34",
+   "lead_days": 121.2,
    "resp": "LEONARDO DE CASTRO FERREIRA",
    "usinas": [
     "Apolo III - Ibiraçu"
