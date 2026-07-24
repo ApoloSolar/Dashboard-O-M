@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-24T13:46:56+00:00",
+ "generated_at": "2026-07-24T15:26:07+00:00",
  "count": 171,
  "tasks": [
   {
@@ -3689,7 +3689,7 @@
    "id": 384,
    "name": "Tampar caixa d´água de Linhares",
    "project": "MANUTENÇÃO",
-   "stage": "11: EM APROVAÇÃO",
+   "stage": "12: FINALIZADO",
    "state": "01_in_progress",
    "severidade": "Média",
    "tipo": "Corretiva",
@@ -3698,10 +3698,10 @@
    "deadline": null,
    "created": "2026-07-01",
    "created_dt": "2026-07-01 13:20:08",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-07-10 10:42:44",
-   "lead_days": null,
+   "closed": "2026-07-24",
+   "closed_dt": "2026-07-24 15:23:45",
+   "stage_since": "2026-07-24 15:23:45",
+   "lead_days": 23.1,
    "resp": "LEONARDO DE CASTRO FERREIRA",
    "usinas": [
     "Apolo I - Linhares"
@@ -3733,8 +3733,8 @@
    "id": 390,
    "name": "Substituir datalogger Canadian",
    "project": "MANUTENÇÃO",
-   "stage": "8: NOVAS SOLICITAÇÕES",
-   "state": "01_in_progress",
+   "stage": "12: FINALIZADO",
+   "state": "03_approved",
    "severidade": "Alta",
    "tipo": "Corretiva",
    "total": null,
@@ -3742,10 +3742,10 @@
    "deadline": null,
    "created": "2026-07-16",
    "created_dt": "2026-07-16 18:05:23",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-07-16 18:05:23",
-   "lead_days": null,
+   "closed": "2026-07-24",
+   "closed_dt": "2026-07-24 15:22:52",
+   "stage_since": "2026-07-24 15:22:52",
+   "lead_days": 7.9,
    "resp": "LEONARDO DE CASTRO FERREIRA",
    "usinas": [
     "Apolo I - Linhares"
