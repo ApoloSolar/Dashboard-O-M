@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-27T16:21:14+00:00",
- "count": 172,
+ "generated_at": "2026-07-27T18:05:18+00:00",
+ "count": 174,
  "tasks": [
   {
    "id": 6,
@@ -3734,7 +3734,7 @@
    "name": "Substituir datalogger Canadian",
    "project": "MANUTENÇÃO",
    "stage": "12: FINALIZADO",
-   "state": "03_approved",
+   "state": "1_done",
    "severidade": "Alta",
    "tipo": "Corretiva",
    "total": null,
@@ -3742,10 +3742,10 @@
    "deadline": null,
    "created": "2026-07-16",
    "created_dt": "2026-07-16 18:05:23",
-   "closed": "2026-07-24",
-   "closed_dt": "2026-07-24 15:22:52",
-   "stage_since": "2026-07-24 15:22:52",
-   "lead_days": 7.9,
+   "closed": "2026-07-27",
+   "closed_dt": "2026-07-27 17:47:27",
+   "stage_since": "2026-07-27 17:47:27",
+   "lead_days": 11.0,
    "resp": "LEONARDO DE CASTRO FERREIRA",
    "usinas": [
     "Apolo I - Linhares"
@@ -3789,6 +3789,50 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-07-24 18:46:52",
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Apolo II - PK"
+   ]
+  },
+  {
+   "id": 393,
+   "name": "Consertar internet de Ibiraçu",
+   "project": "MANUTENÇÃO",
+   "stage": "8: NOVAS SOLICITAÇÕES",
+   "state": "01_in_progress",
+   "severidade": "Média",
+   "tipo": "Corretiva",
+   "total": null,
+   "priority": 2,
+   "deadline": null,
+   "created": "2026-07-27",
+   "created_dt": "2026-07-27 16:36:15",
+   "closed": null,
+   "closed_dt": null,
+   "stage_since": "2026-07-27 16:36:15",
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo III - Ibiraçu"
+   ]
+  },
+  {
+   "id": 394,
+   "name": "Inspeção visual dos módulos XPower",
+   "project": "MANUTENÇÃO",
+   "stage": "8: NOVAS SOLICITAÇÕES",
+   "state": "01_in_progress",
+   "severidade": "Alta",
+   "tipo": "Corretiva",
+   "total": null,
+   "priority": 3,
+   "deadline": "2026-07-31",
+   "created": "2026-07-27",
+   "created_dt": "2026-07-27 17:25:33",
+   "closed": null,
+   "closed_dt": null,
+   "stage_since": "2026-07-27 17:25:33",
    "lead_days": null,
    "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
    "usinas": [
