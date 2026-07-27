@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-27T18:05:18+00:00",
+ "generated_at": "2026-07-27T20:05:02+00:00",
  "count": 174,
  "tasks": [
   {
@@ -2689,8 +2689,8 @@
    "id": 334,
    "name": "Módulo WIFI CSI",
    "project": "MANUTENÇÃO",
-   "stage": "9: AGUARDANDO EXECUÇÃO",
-   "state": "01_in_progress",
+   "stage": "12: FINALIZADO",
+   "state": "1_done",
    "severidade": "Alta",
    "tipo": "Corretiva",
    "total": null,
@@ -2698,10 +2698,10 @@
    "deadline": null,
    "created": "2026-05-08",
    "created_dt": "2026-05-08 17:47:41",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-05-12 17:35:54",
-   "lead_days": null,
+   "closed": "2026-07-27",
+   "closed_dt": "2026-07-27 19:52:51",
+   "stage_since": "2026-07-27 19:52:51",
+   "lead_days": 80.1,
    "resp": "LEONARDO DE CASTRO FERREIRA",
    "usinas": [
     "Apolo I - Linhares"
