@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-28T14:59:17+00:00",
- "count": 174,
+ "generated_at": "2026-07-28T16:46:29+00:00",
+ "count": 175,
  "tasks": [
   {
    "id": 6,
@@ -3838,6 +3838,26 @@
    "usinas": [
     "Apolo II - PK"
    ]
+  },
+  {
+   "id": 396,
+   "name": "Teste",
+   "project": "MANUTENÇÃO",
+   "stage": "8: NOVAS SOLICITAÇÕES",
+   "state": "01_in_progress",
+   "severidade": "Média",
+   "tipo": "—",
+   "total": null,
+   "priority": 0,
+   "deadline": null,
+   "created": "2026-07-28",
+   "created_dt": "2026-07-28 15:12:35",
+   "closed": null,
+   "closed_dt": null,
+   "stage_since": "2026-07-28 15:12:35",
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": []
   }
  ]
 }
