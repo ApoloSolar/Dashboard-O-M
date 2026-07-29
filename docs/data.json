@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-29T17:47:31+00:00",
- "count": 175,
+ "generated_at": "2026-07-29T19:17:01+00:00",
+ "count": 174,
  "tasks": [
   {
    "id": 6,
@@ -3833,28 +3833,6 @@
    "closed": null,
    "closed_dt": null,
    "stage_since": "2026-07-28 14:18:01",
-   "lead_days": null,
-   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
-   "usinas": [
-    "Apolo II - PK"
-   ]
-  },
-  {
-   "id": 397,
-   "name": "Conexão câmera PK",
-   "project": "MANUTENÇÃO",
-   "stage": "8: NOVAS SOLICITAÇÕES",
-   "state": "01_in_progress",
-   "severidade": "Média",
-   "tipo": "Corretiva",
-   "total": null,
-   "priority": 0,
-   "deadline": null,
-   "created": "2026-07-29",
-   "created_dt": "2026-07-29 17:29:03",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-07-29 17:29:03",
    "lead_days": null,
    "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
    "usinas": [
