@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-07-30T11:29:07+00:00",
- "count": 174,
+ "generated_at": "2026-07-30T13:10:00+00:00",
+ "count": 175,
  "tasks": [
   {
    "id": 6,
@@ -3837,6 +3837,28 @@
    "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
    "usinas": [
     "Apolo II - PK"
+   ]
+  },
+  {
+   "id": 398,
+   "name": "Reparo na entrada de média em Linhares",
+   "project": "MANUTENÇÃO",
+   "stage": "9: AGUARDANDO EXECUÇÃO",
+   "state": "01_in_progress",
+   "severidade": "Muito alta",
+   "tipo": "Corretiva",
+   "total": 2100.0,
+   "priority": 3,
+   "deadline": null,
+   "created": "2026-07-30",
+   "created_dt": "2026-07-30 12:16:46",
+   "closed": null,
+   "closed_dt": null,
+   "stage_since": "2026-07-30 12:23:51",
+   "lead_days": null,
+   "resp": "LEONARDO DE CASTRO FERREIRA",
+   "usinas": [
+    "Apolo I - Linhares"
    ]
   }
  ]
