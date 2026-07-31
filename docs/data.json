@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-31T13:14:20+00:00",
+ "generated_at": "2026-07-31T15:37:47+00:00",
  "count": 175,
  "tasks": [
   {
@@ -3843,7 +3843,7 @@
    "id": 398,
    "name": "Reparo na entrada de média em Linhares",
    "project": "MANUTENÇÃO",
-   "stage": "9: AGUARDANDO EXECUÇÃO",
+   "stage": "10: EXECUTANDO",
    "state": "01_in_progress",
    "severidade": "Muito alta",
    "tipo": "Corretiva",
@@ -3854,7 +3854,7 @@
    "created_dt": "2026-07-30 12:16:46",
    "closed": null,
    "closed_dt": null,
-   "stage_since": "2026-07-30 12:23:51",
+   "stage_since": "2026-07-31 15:07:19",
    "lead_days": null,
    "resp": "LEONARDO DE CASTRO FERREIRA",
    "usinas": [
