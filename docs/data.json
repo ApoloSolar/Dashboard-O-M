@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-06T12:02:30+00:00",
+ "generated_at": "2026-08-06T14:53:22+00:00",
  "count": 175,
  "tasks": [
   {
@@ -3843,7 +3843,7 @@
    "id": 398,
    "name": "Reparo na entrada de média em Linhares",
    "project": "MANUTENÇÃO",
-   "stage": "10: EXECUTANDO",
+   "stage": "12: FINALIZADO",
    "state": "01_in_progress",
    "severidade": "Muito alta",
    "tipo": "Corretiva",
@@ -3852,10 +3852,10 @@
    "deadline": null,
    "created": "2026-07-30",
    "created_dt": "2026-07-30 12:16:46",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-07-31 15:07:19",
-   "lead_days": null,
+   "closed": "2026-08-06",
+   "closed_dt": "2026-08-06 12:45:45",
+   "stage_since": "2026-08-06 12:45:45",
+   "lead_days": 7.0,
    "resp": "LEONARDO DE CASTRO FERREIRA",
    "usinas": [
     "Apolo I - Linhares"
