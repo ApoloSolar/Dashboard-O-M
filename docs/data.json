@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-26T11:30:19+00:00",
- "count": 175,
+ "generated_at": "2026-08-26T12:52:43+00:00",
+ "count": 177,
  "tasks": [
   {
    "id": 6,
@@ -3859,6 +3859,50 @@
    "resp": "LEONARDO DE CASTRO FERREIRA",
    "usinas": [
     "Apolo I - Linhares"
+   ]
+  },
+  {
+   "id": 399,
+   "name": "Reparo na porta do QGBT de RioSol",
+   "project": "MANUTENÇÃO",
+   "stage": "8: NOVAS SOLICITAÇÕES",
+   "state": "01_in_progress",
+   "severidade": "Média",
+   "tipo": "Corretiva",
+   "total": null,
+   "priority": 1,
+   "deadline": null,
+   "created": "2026-08-26",
+   "created_dt": "2026-08-26 12:35:50",
+   "closed": null,
+   "closed_dt": null,
+   "stage_since": "2026-08-26 12:35:50",
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Rio Sol"
+   ]
+  },
+  {
+   "id": 400,
+   "name": "Verificar afundamento de lastros de RioSol",
+   "project": "MANUTENÇÃO",
+   "stage": "8: NOVAS SOLICITAÇÕES",
+   "state": "01_in_progress",
+   "severidade": "Média",
+   "tipo": "Preventiva",
+   "total": null,
+   "priority": 1,
+   "deadline": null,
+   "created": "2026-08-26",
+   "created_dt": "2026-08-26 12:39:44",
+   "closed": null,
+   "closed_dt": null,
+   "stage_since": "2026-08-26 12:39:44",
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Rio Sol"
    ]
   }
  ]
