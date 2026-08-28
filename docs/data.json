@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-08-28T05:07:49+00:00",
- "count": 177,
+ "generated_at": "2026-08-28T17:37:08+00:00",
+ "count": 178,
  "tasks": [
   {
    "id": 6,
@@ -3903,6 +3903,28 @@
    "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
    "usinas": [
     "Rio Sol"
+   ]
+  },
+  {
+   "id": 401,
+   "name": "Corrigir as fotocélulas de Presidente Kennedy",
+   "project": "MANUTENÇÃO",
+   "stage": "8: NOVAS SOLICITAÇÕES",
+   "state": "01_in_progress",
+   "severidade": "Média",
+   "tipo": "Corretiva",
+   "total": null,
+   "priority": 1,
+   "deadline": null,
+   "created": "2026-08-28",
+   "created_dt": "2026-08-28 14:41:39",
+   "closed": null,
+   "closed_dt": null,
+   "stage_since": "2026-08-28 14:41:39",
+   "lead_days": null,
+   "resp": "ELIABY KRISTIAN DE OLIVEIRA SILVA",
+   "usinas": [
+    "Apolo II - PK"
    ]
   }
  ]
