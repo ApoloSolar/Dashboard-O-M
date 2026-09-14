@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-09-14T13:42:22+00:00",
+ "generated_at": "2026-09-14T19:03:56+00:00",
  "count": 178,
  "tasks": [
   {
@@ -244,7 +244,7 @@
    "id": 24,
    "name": "Acionar garantia Chint",
    "project": "MANUTENÇÃO",
-   "stage": "11: EM APROVAÇÃO",
+   "stage": "12: FINALIZADO",
    "state": "01_in_progress",
    "severidade": "Baixa",
    "tipo": "Corretiva",
@@ -253,10 +253,10 @@
    "deadline": null,
    "created": "2026-02-13",
    "created_dt": "2026-02-13 20:24:58",
-   "closed": null,
-   "closed_dt": null,
-   "stage_since": "2026-04-10 17:46:57",
-   "lead_days": null,
+   "closed": "2026-09-14",
+   "closed_dt": "2026-09-14 18:53:24",
+   "stage_since": "2026-09-14 18:53:24",
+   "lead_days": 212.9,
    "resp": "LEONARDO DE CASTRO FERREIRA",
    "usinas": [
     "Apolo II - PK"
